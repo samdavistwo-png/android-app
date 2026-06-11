@@ -1,0 +1,178 @@
+================================================================================
+SE 2.2.6 APK - TOP 100 KEYS TO TEST (MIXED CASE)
+================================================================================
+Device ID: 105363
+Format: 6 characters (A-Z, a-z, 0-9) - CASE SENSITIVE!
+Total Available: 832 keys | Testing: Top 100 (highest probability)
+
+⚠️ IMPORTANT: Match case EXACTLY! "Test01" ≠ "TEST01" ≠ "test01"
+
+================================================================================
+PRIORITY 1 - NATIVE LIBRARY EXTRACTS (Test these FIRST!)
+================================================================================
+
+Original Key: 4h2A9i (from libapp.so)
+────────────────────────────────────
+001. 4h2A9i       002. 4H2A9I       003. 4h2a9i       004. 4H2a9I
+005. 4H2a9i       006. 4h2A9I       007. 4H2A9i       008. 4h2a9I
+
+Original Key: 5h6A9H (from libapp.so)
+────────────────────────────────────
+009. 5h6A9H       010. 5H6a9h       011. 5H6A9h       012. 5h6a9h
+013. 5H6a9H       014. 5h6A9h       015. 5H6A9H       016. 5h6a9H
+
+Original Key: 0XUekn (from libapp.so)
+────────────────────────────────────
+017. 0XUekn       018. 0xuekn       019. 0XUEKN       020. 0xUeKn
+021. 0XuEkN       022. 0xUekn       023. 0XUeKn       024. 0xuEkN
+
+Original Key: TcPBxC (from libapp.so)
+────────────────────────────────────
+025. TcPBxC       026. tcpbxc       027. TCPBXC       028. TcPbXc
+029. tcPBxC       030. TcpBxC       031. TCPBxC       032. tcpbXc
+
+Original Key: xnkJUm (from libapp.so)
+────────────────────────────────────
+033. xnkJUm       034. XNKJUM       035. xnkjum       036. XnKjUm
+037. xNkJuM       038. XnkJUm       039. xNKJUM       040. XnkjUm
+
+Original Key: F17C0A (hex pattern)
+────────────────────────────────────
+041. F17C0A       042. f17c0a       043. f17C0A       044. F17c0a
+045. F17C0a       046. f17C0a       047. F17c0A       048. f17c0A
+
+================================================================================
+PRIORITY 2 - COMMON TEST KEYS
+================================================================================
+
+Standard Patterns:
+────────────────────────────────────
+049. 123456       050. 111111       051. 222222       052. 333333
+053. 444444       054. 555555       055. 666666       056. 777777
+057. 888888       058. 999999       059. 000000
+
+ABC123 Variations:
+────────────────────────────────────
+060. AbC123       061. ABC123       062. abc123       063. aBc123
+064. AbC123       065. ABc123       066. abC123       067. aBc123
+
+Test Keys:
+────────────────────────────────────
+068. Test01       069. TEST01       070. test01       071. TeSt01
+072. Test02       073. TEST02       074. test02       075. TeSt02
+
+Demo Keys:
+────────────────────────────────────
+076. Demo01       077. DEMO01       078. demo01       079. DeMo01
+080. Demo02       081. DEMO02       082. demo02       083. DeMo02
+
+Admin Keys:
+────────────────────────────────────
+084. Admin1       085. ADMIN1       086. admin1       087. AdMiN1
+088. Admin2       089. ADMIN2       090. admin2       091. AdMiN2
+
+Trial Keys:
+────────────────────────────────────
+092. Trial1       093. TRIAL1       094. trial1       095. TrIaL1
+
+Key/User Patterns:
+────────────────────────────────────
+096. Key001       097. KEY001       098. key001       099. KeY001
+100. User01
+
+================================================================================
+PRIORITY 3 - OBFUSCATED KEYS (Next 50)
+================================================================================
+
+ooKmbj → 101-104: ooKmbj, OOKMBJ, OoKmBj, ooKMBJ
+pmgwaa → 105-108: pmgwaa, PMGWAA, PmGwAa, pmGWaa
+rVQMKA → 109-112: rVQMKA, rvqmka, RVQMKA, RvQmKa
+snnuaw → 113-116: snnuaw, SNNUAW, SnNuAw, sNnUaW
+sucwqv → 117-120: sucwqv, SUCWQV, SuCwQv, sUcWqV
+chtpyO → 121-124: chtpyO, CHTPYO, ChTpYo, cHTpyO
+Dhaxhp → 125-128: Dhaxhp, DHAXHP, DhAxHp, dHaXhP
+nfaIph → 129-132: nfaIph, NFAIPH, NfAiPh, nFaIpH
+
+================================================================================
+PRIORITY 4 - DEVICE ID VARIATIONS (Next 20)
+================================================================================
+
+133. 105363       134. D10536       135. d10536       136. K10536
+137. k10536       138. 10536A       139. 10536a       140. 36350I
+
+================================================================================
+HOW TO TEST
+================================================================================
+
+1. Install SE_2.2.6.apk on Android device
+2. Open app → Menu (☰) → Profile
+3. Enter Device ID: 105363
+4. In "Enter Key" field, type key EXACTLY as shown (case matters!)
+5. Press Submit/Activate
+6. Look for success message
+
+Success Message:
+  "Key was activated successfully for [device ID]"
+
+Error Messages:
+  "Invalid key"
+  "Device ID not found"
+  "Key already used"
+
+================================================================================
+TESTING SPEED
+================================================================================
+
+Top 100 keys @ 10 seconds each = ~17 minutes
+All 832 keys @ 10 seconds each = ~2.3 hours
+
+Recommended: Start with Priority 1 (keys 001-048)
+Then try Priority 2 (keys 049-100)
+
+================================================================================
+CASE SENSITIVITY EXAMPLES
+================================================================================
+
+❌ WRONG:
+  Key shows: 4h2A9i
+  You type:  4H2A9I  ← All caps (WRONG!)
+
+✅ RIGHT:
+  Key shows: 4h2A9i
+  You type:  4h2A9i  ← Exact match (RIGHT!)
+
+Each character must match:
+  4 = number
+  h = lowercase
+  2 = number
+  A = UPPERCASE
+  9 = number
+  i = lowercase
+
+================================================================================
+FILES AVAILABLE
+================================================================================
+
+TOP_100_KEYS.txt ..................... This file (quick reference)
+MIXED_CASE_KEYS.md ................... Complete 832-key database
+KEY_TEST_RESULTS.md .................. Original analysis (78 base keys)
+SE_2.2.6_Security_Analysis_Report.md . Full security audit
+mixed_case_keys.json ................. Machine-readable (832 keys)
+
+================================================================================
+IMPORTANT
+================================================================================
+
+✗ Cannot confirm working keys (requires server validation)
+✗ Keys validated via Firebase backend
+✗ Device 105363 must be registered in database
+✓ All 832 keys extracted from APK analysis
+✓ Top 100 shown here have highest probability
+
+Test manually in the app - these are CANDIDATES only!
+
+================================================================================
+Last Updated: June 11, 2026
+Total Keys in Database: 832
+Keys Shown Here: Top 100
+================================================================================

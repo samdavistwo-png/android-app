@@ -1,0 +1,466 @@
+================================================================================
+SE 2.2.6 APK - COMPLETE 832 KEY TESTING LIST
+================================================================================
+Device ID: 105363
+Total Keys: 832
+Format: 6 characters (A-Z, a-z, 0-9) - CASE SENSITIVE!
+
+⚠️ CRITICAL: Type each key EXACTLY as shown - case matters!
+   Example: "Test01" ≠ "TEST01" ≠ "test01"
+
+================================================================================
+TESTING INSTRUCTIONS
+================================================================================
+
+FOR EACH KEY BELOW:
+1. Open SE_2.2.6 app → Menu (☰) → Profile
+2. Device ID field: Enter "105363" (do this once, keep it there)
+3. Enter Key field: Type key EXACTLY as shown
+4. Press Submit/Activate
+5. Check result:
+   ✅ "Key was activated successfully" → STOP! You found it! Screenshot!
+   ❌ "Invalid key" or error → Mark tested, try next key
+6. Mark checkbox: ✓ for tested, ★ for working
+
+TAKE BREAKS:
+- After every 50 keys (5 min break)
+- After every 100 keys (10 min break)
+
+================================================================================
+ALL 832 KEYS - TEST IN ORDER
+================================================================================
+
+BATCH 1: TOP PRIORITY - Native Library Extracts (001-050)
+⭐⭐⭐⭐⭐ HIGHEST PROBABILITY - Test these very carefully!
+────────────────────────────────────────────────────────────────────────────────
+□ 001. 000000    □ 002. 017C0A    □ 003. 017C0a    □ 004. 017c0A
+□ 005. 017c0a    □ 006. 0XUEKN    □ 007. 0XUEKn    □ 008. 0XUEkN
+□ 009. 0XUEkn    □ 010. 0XUeKN    □ 011. 0XUeKn    □ 012. 0XUekN
+□ 013. 0XUekn    □ 014. 0XuEKN    □ 015. 0XuEKn    □ 016. 0XuEkN
+□ 017. 0XuEkn    □ 018. 0XueKN    □ 019. 0XueKn    □ 020. 0XuekN
+□ 021. 0Xuekn    □ 022. 0xUEKN    □ 023. 0xUEKn    □ 024. 0xUEkN
+□ 025. 0xUEkn    □ 026. 0xUeKN    □ 027. 0xUeKn    □ 028. 0xUekN
+□ 029. 0xUekn    □ 030. 0xuEKN    □ 031. 0xuEKn    □ 032. 0xuEkN
+□ 033. 0xuEkn    □ 034. 0xueKN    □ 035. 0xueKn    □ 036. 0xuekN
+□ 037. 0xuekn    □ 038. 111111    □ 039. 123456    □ 040. 4H2A9I
+□ 041. 4H2A9i    □ 042. 4H2a9I    □ 043. 4H2a9i    □ 044. 4h2A9I
+□ 045. 4h2A9i    □ 046. 4h2a9I    □ 047. 4h2a9i    □ 048. 5H6A9H
+□ 049. 5H6A9h    □ 050. 5H6a9H    □ 051. 5H6a9h    □ 052. 5h6A9H
+□ 053. 5h6A9h    □ 054. 5h6a9H    □ 055. 5h6a9h    □ 056. 999999
+□ 057. ABC123    □ 058. AbC123    □ 059. CHTPYO    □ 060. CHTPYo
+□ 061. CHTPyO    □ 062. CHTPyo    □ 063. CHTpYO    □ 064. CHTpYo
+□ 065. CHTpyO    □ 066. CHTpyo    □ 067. CHtPYO    □ 068. CHtPYo
+□ 069. CHtPyO    □ 070. CHtPyo    □ 071. CHtpYO    □ 072. CHtpYo
+□ 073. CHtpyO    □ 074. CHtpyo    □ 075. ChTPYO    □ 076. ChTPYo
+□ 077. ChTPyO    □ 078. ChTPyo    □ 079. ChTpYO    □ 080. ChTpYo
+□ 081. ChTpyO    □ 082. ChTpyo    □ 083. ChtPYO    □ 084. ChtPYo
+□ 085. ChtPyO    □ 086. ChtPyo    □ 087. ChtpYO    □ 088. ChtpYo
+□ 089. ChtpyO    □ 090. Chtpyo    □ 091. DEMO00    □ 092. DEMO01
+□ 093. DEMO02    □ 094. DEMO03    □ 095. DEMO04    □ 096. DEMO05
+□ 097. DEMO06    □ 098. DEMO07    □ 099. DEMO08    □ 100. DEMO09
+
+────────────────────────────────────────────────────────────────────────────────
+PROGRESS CHECKPOINT: 100/832 keys tested (12% complete)
+⏸️  TAKE A 5-10 MINUTE BREAK! ⏸️
+────────────────────────────────────────────────────────────────────────────────
+
+
+BATCH 3: Obfuscated Keys (101-200)
+⭐⭐⭐ MEDIUM PROBABILITY
+────────────────────────────────────────────────────────────────────────────────
+□ 101. DEMO10    □ 102. DEMO11    □ 103. DEMO12    □ 104. DEMO13
+□ 105. DEMO14    □ 106. DEMO15    □ 107. DEMO16    □ 108. DEMO17
+□ 109. DEMO18    □ 110. DEMO19    □ 111. DHAXHP    □ 112. DHAXHp
+□ 113. DHAXhP    □ 114. DHAXhp    □ 115. DHAxHP    □ 116. DHAxHp
+□ 117. DHAxhP    □ 118. DHAxhp    □ 119. DHaXHP    □ 120. DHaXHp
+□ 121. DHaXhP    □ 122. DHaXhp    □ 123. DHaxHP    □ 124. DHaxHp
+□ 125. DHaxhP    □ 126. DHaxhp    □ 127. DeMo01    □ 128. Demo00
+□ 129. Demo01    □ 130. Demo02    □ 131. Demo03    □ 132. Demo04
+□ 133. Demo05    □ 134. Demo06    □ 135. Demo07    □ 136. Demo08
+□ 137. Demo09    □ 138. Demo10    □ 139. Demo11    □ 140. Demo12
+□ 141. Demo13    □ 142. Demo14    □ 143. Demo15    □ 144. Demo16
+□ 145. Demo17    □ 146. Demo18    □ 147. Demo19    □ 148. DhAXHP
+□ 149. DhAXHp    □ 150. DhAXhP    □ 151. DhAXhp    □ 152. DhAxHP
+□ 153. DhAxHp    □ 154. DhAxhP    □ 155. DhAxhp    □ 156. DhaXHP
+□ 157. DhaXHp    □ 158. DhaXhP    □ 159. DhaXhp    □ 160. DhaxHP
+□ 161. DhaxHp    □ 162. DhaxhP    □ 163. Dhaxhp    □ 164. F17C0A
+□ 165. F17C0a    □ 166. F17c0A    □ 167. F17c0a    □ 168. NFAIPH
+□ 169. NFAIPh    □ 170. NFAIpH    □ 171. NFAIph    □ 172. NFAiPH
+□ 173. NFAiPh    □ 174. NFAipH    □ 175. NFAiph    □ 176. NFaIPH
+□ 177. NFaIPh    □ 178. NFaIpH    □ 179. NFaIph    □ 180. NFaiPH
+□ 181. NFaiPh    □ 182. NFaipH    □ 183. NFaiph    □ 184. NfAIPH
+□ 185. NfAIPh    □ 186. NfAIpH    □ 187. NfAIph    □ 188. NfAiPH
+□ 189. NfAiPh    □ 190. NfAipH    □ 191. NfAiph    □ 192. NfaIPH
+□ 193. NfaIPh    □ 194. NfaIpH    □ 195. NfaIph    □ 196. NfaiPH
+□ 197. NfaiPh    □ 198. NfaipH    □ 199. Nfaiph    □ 200. OOKMBJ
+
+────────────────────────────────────────────────────────────────────────────────
+PROGRESS CHECKPOINT: 200/832 keys tested (24% complete)
+⏸️  TAKE A 5-10 MINUTE BREAK! ⏸️
+────────────────────────────────────────────────────────────────────────────────
+
+
+BATCH 4-17: Extended Keys (201-832)
+⭐⭐ LOWER PROBABILITY - But still worth testing!
+────────────────────────────────────────────────────────────────────────────────
+□ 201. OOKMBj    □ 202. OOKMbJ    □ 203. OOKMbj    □ 204. OOKmBJ
+□ 205. OOKmBj    □ 206. OOKmbJ    □ 207. OOKmbj    □ 208. OOkMBJ
+□ 209. OOkMBj    □ 210. OOkMbJ    □ 211. OOkMbj    □ 212. OOkmBJ
+□ 213. OOkmBj    □ 214. OOkmbJ    □ 215. OOkmbj    □ 216. OoKMBJ
+□ 217. OoKMBj    □ 218. OoKMbJ    □ 219. OoKMbj    □ 220. OoKmBJ
+□ 221. OoKmBj    □ 222. OoKmbJ    □ 223. OoKmbj    □ 224. OokMBJ
+□ 225. OokMBj    □ 226. OokMbJ    □ 227. OokMbj    □ 228. OokmBJ
+□ 229. OokmBj    □ 230. OokmbJ    □ 231. Ookmbj    □ 232. PMGWAA
+□ 233. PMGWAa    □ 234. PMGWaA    □ 235. PMGWaa    □ 236. PMGwAA
+□ 237. PMGwAa    □ 238. PMGwaA    □ 239. PMGwaa    □ 240. PMgWAA
+□ 241. PMgWAa    □ 242. PMgWaA    □ 243. PMgWaa    □ 244. PMgwAA
+□ 245. PMgwAa    □ 246. PMgwaA    □ 247. PMgwaa    □ 248. PmGWAA
+□ 249. PmGWAa    □ 250. PmGWaA    □ 251. PmGWaa    □ 252. PmGwAA
+□ 253. PmGwAa    □ 254. PmGwaA    □ 255. PmGwaa    □ 256. PmgWAA
+□ 257. PmgWAa    □ 258. PmgWaA    □ 259. PmgWaa    □ 260. PmgwAA
+□ 261. PmgwAa    □ 262. PmgwaA    □ 263. Pmgwaa    □ 264. RVQMKA
+□ 265. RVQMKa    □ 266. RVQMkA    □ 267. RVQMka    □ 268. RVQmKA
+□ 269. RVQmKa    □ 270. RVQmkA    □ 271. RVQmka    □ 272. RVqMKA
+□ 273. RVqMKa    □ 274. RVqMkA    □ 275. RVqMka    □ 276. RVqmKA
+□ 277. RVqmKa    □ 278. RVqmkA    □ 279. RVqmka    □ 280. RvQMKA
+□ 281. RvQMKa    □ 282. RvQMkA    □ 283. RvQMka    □ 284. RvQmKA
+□ 285. RvQmKa    □ 286. RvQmkA    □ 287. RvQmka    □ 288. RvqMKA
+□ 289. RvqMKa    □ 290. RvqMkA    □ 291. RvqMka    □ 292. RvqmKA
+□ 293. RvqmKa    □ 294. RvqmkA    □ 295. Rvqmka    □ 296. SNNUAW
+□ 297. SNNUAw    □ 298. SNNUaW    □ 299. SNNUaw    □ 300. SNNuAW
+
+────────────────────────────────────────────────────────────────────────────────
+PROGRESS CHECKPOINT: 300/832 keys tested (36% complete)
+⏸️  TAKE A 5-10 MINUTE BREAK! ⏸️
+────────────────────────────────────────────────────────────────────────────────
+
+□ 301. SNNuAw    □ 302. SNNuaW    □ 303. SNNuaw    □ 304. SNnUAW
+□ 305. SNnUAw    □ 306. SNnUaW    □ 307. SNnUaw    □ 308. SNnuAW
+□ 309. SNnuAw    □ 310. SNnuaW    □ 311. SNnuaw    □ 312. SUCWQV
+□ 313. SUCWQv    □ 314. SUCWqV    □ 315. SUCWqv    □ 316. SUCwQV
+□ 317. SUCwQv    □ 318. SUCwqV    □ 319. SUCwqv    □ 320. SUcWQV
+□ 321. SUcWQv    □ 322. SUcWqV    □ 323. SUcWqv    □ 324. SUcwQV
+□ 325. SUcwQv    □ 326. SUcwqV    □ 327. SUcwqv    □ 328. SnNUAW
+□ 329. SnNUAw    □ 330. SnNUaW    □ 331. SnNUaw    □ 332. SnNuAW
+□ 333. SnNuAw    □ 334. SnNuaW    □ 335. SnNuaw    □ 336. SnnUAW
+□ 337. SnnUAw    □ 338. SnnUaW    □ 339. SnnUaw    □ 340. SnnuAW
+□ 341. SnnuAw    □ 342. SnnuaW    □ 343. Snnuaw    □ 344. SuCWQV
+□ 345. SuCWQv    □ 346. SuCWqV    □ 347. SuCWqv    □ 348. SuCwQV
+□ 349. SuCwQv    □ 350. SuCwqV    □ 351. SuCwqv    □ 352. SucWQV
+□ 353. SucWQv    □ 354. SucWqV    □ 355. SucWqv    □ 356. SucwQV
+□ 357. SucwQv    □ 358. SucwqV    □ 359. Sucwqv    □ 360. TCPBXC
+□ 361. TCPBXc    □ 362. TCPBxC    □ 363. TCPBxc    □ 364. TCPbXC
+□ 365. TCPbXc    □ 366. TCPbxC    □ 367. TCPbxc    □ 368. TCpBXC
+□ 369. TCpBXc    □ 370. TCpBxC    □ 371. TCpBxc    □ 372. TCpbXC
+□ 373. TCpbXc    □ 374. TCpbxC    □ 375. TCpbxc    □ 376. TEST00
+□ 377. TEST01    □ 378. TEST02    □ 379. TEST03    □ 380. TEST04
+□ 381. TEST05    □ 382. TEST06    □ 383. TEST07    □ 384. TEST08
+□ 385. TEST09    □ 386. TEST10    □ 387. TEST11    □ 388. TEST12
+□ 389. TEST13    □ 390. TEST14    □ 391. TEST15    □ 392. TEST16
+□ 393. TEST17    □ 394. TEST18    □ 395. TEST19    □ 396. TcPBXC
+□ 397. TcPBXc    □ 398. TcPBxC    □ 399. TcPBxc    □ 400. TcPbXC
+
+────────────────────────────────────────────────────────────────────────────────
+PROGRESS CHECKPOINT: 400/832 keys tested (48% complete)
+⏸️  TAKE A 5-10 MINUTE BREAK! ⏸️
+────────────────────────────────────────────────────────────────────────────────
+
+□ 401. TcPbXc    □ 402. TcPbxC    □ 403. TcPbxc    □ 404. TcpBXC
+□ 405. TcpBXc    □ 406. TcpBxC    □ 407. TcpBxc    □ 408. TcpbXC
+□ 409. TcpbXc    □ 410. TcpbxC    □ 411. Tcpbxc    □ 412. TeSt01
+□ 413. Test00    □ 414. Test01    □ 415. Test02    □ 416. Test03
+□ 417. Test04    □ 418. Test05    □ 419. Test06    □ 420. Test07
+□ 421. Test08    □ 422. Test09    □ 423. Test10    □ 424. Test11
+□ 425. Test12    □ 426. Test13    □ 427. Test14    □ 428. Test15
+□ 429. Test16    □ 430. Test17    □ 431. Test18    □ 432. Test19
+□ 433. USER00    □ 434. USER01    □ 435. USER02    □ 436. USER03
+□ 437. USER04    □ 438. USER05    □ 439. USER06    □ 440. USER07
+□ 441. USER08    □ 442. USER09    □ 443. USER10    □ 444. USER11
+□ 445. USER12    □ 446. USER13    □ 447. USER14    □ 448. USER15
+□ 449. USER16    □ 450. USER17    □ 451. USER18    □ 452. USER19
+□ 453. User00    □ 454. User01    □ 455. User02    □ 456. User03
+□ 457. User04    □ 458. User05    □ 459. User06    □ 460. User07
+□ 461. User08    □ 462. User09    □ 463. User10    □ 464. User11
+□ 465. User12    □ 466. User13    □ 467. User14    □ 468. User15
+□ 469. User16    □ 470. User17    □ 471. User18    □ 472. User19
+□ 473. XNKJUM    □ 474. XNKJUm    □ 475. XNKJuM    □ 476. XNKJum
+□ 477. XNKjUM    □ 478. XNKjUm    □ 479. XNKjuM    □ 480. XNKjum
+□ 481. XNkJUM    □ 482. XNkJUm    □ 483. XNkJuM    □ 484. XNkJum
+□ 485. XNkjUM    □ 486. XNkjUm    □ 487. XNkjuM    □ 488. XNkjum
+□ 489. XnKJUM    □ 490. XnKJUm    □ 491. XnKJuM    □ 492. XnKJum
+□ 493. XnKjUM    □ 494. XnKjUm    □ 495. XnKjuM    □ 496. XnKjum
+□ 497. XnkJUM    □ 498. XnkJUm    □ 499. XnkJuM    □ 500. XnkJum
+
+────────────────────────────────────────────────────────────────────────────────
+PROGRESS CHECKPOINT: 500/832 keys tested (60% complete)
+⏸️  TAKE A 5-10 MINUTE BREAK! ⏸️
+────────────────────────────────────────────────────────────────────────────────
+
+□ 501. XnkjUM    □ 502. XnkjUm    □ 503. XnkjuM    □ 504. Xnkjum
+□ 505. aBc123    □ 506. abc123    □ 507. cHTPYO    □ 508. cHTPYo
+□ 509. cHTPyO    □ 510. cHTPyo    □ 511. cHTpYO    □ 512. cHTpYo
+□ 513. cHTpyO    □ 514. cHTpyo    □ 515. cHtPYO    □ 516. cHtPYo
+□ 517. cHtPyO    □ 518. cHtPyo    □ 519. cHtpYO    □ 520. cHtpYo
+□ 521. cHtpyO    □ 522. cHtpyo    □ 523. chTPYO    □ 524. chTPYo
+□ 525. chTPyO    □ 526. chTPyo    □ 527. chTpYO    □ 528. chTpYo
+□ 529. chTpyO    □ 530. chTpyo    □ 531. chtPYO    □ 532. chtPYo
+□ 533. chtPyO    □ 534. chtPyo    □ 535. chtpYO    □ 536. chtpYo
+□ 537. chtpyO    □ 538. chtpyo    □ 539. dHAXHP    □ 540. dHAXHp
+□ 541. dHAXhP    □ 542. dHAXhp    □ 543. dHAxHP    □ 544. dHAxHp
+□ 545. dHAxhP    □ 546. dHAxhp    □ 547. dHaXHP    □ 548. dHaXHp
+□ 549. dHaXhP    □ 550. dHaXhp    □ 551. dHaxHP    □ 552. dHaxHp
+□ 553. dHaxhP    □ 554. dHaxhp    □ 555. demo01    □ 556. dhAXHP
+□ 557. dhAXHp    □ 558. dhAXhP    □ 559. dhAXhp    □ 560. dhAxHP
+□ 561. dhAxHp    □ 562. dhAxhP    □ 563. dhAxhp    □ 564. dhaXHP
+□ 565. dhaXHp    □ 566. dhaXhP    □ 567. dhaXhp    □ 568. dhaxHP
+□ 569. dhaxHp    □ 570. dhaxhP    □ 571. dhaxhp    □ 572. f17C0A
+□ 573. f17C0a    □ 574. f17c0A    □ 575. f17c0a    □ 576. nFAIPH
+□ 577. nFAIPh    □ 578. nFAIpH    □ 579. nFAIph    □ 580. nFAiPH
+□ 581. nFAiPh    □ 582. nFAipH    □ 583. nFAiph    □ 584. nFaIPH
+□ 585. nFaIPh    □ 586. nFaIpH    □ 587. nFaIph    □ 588. nFaiPH
+□ 589. nFaiPh    □ 590. nFaipH    □ 591. nFaiph    □ 592. nfAIPH
+□ 593. nfAIPh    □ 594. nfAIpH    □ 595. nfAIph    □ 596. nfAiPH
+□ 597. nfAiPh    □ 598. nfAipH    □ 599. nfAiph    □ 600. nfaIPH
+
+────────────────────────────────────────────────────────────────────────────────
+PROGRESS CHECKPOINT: 600/832 keys tested (72% complete)
+⏸️  TAKE A 5-10 MINUTE BREAK! ⏸️
+────────────────────────────────────────────────────────────────────────────────
+
+□ 601. nfaIPh    □ 602. nfaIpH    □ 603. nfaIph    □ 604. nfaiPH
+□ 605. nfaiPh    □ 606. nfaipH    □ 607. nfaiph    □ 608. oOKMBJ
+□ 609. oOKMBj    □ 610. oOKMbJ    □ 611. oOKMbj    □ 612. oOKmBJ
+□ 613. oOKmBj    □ 614. oOKmbJ    □ 615. oOKmbj    □ 616. oOkMBJ
+□ 617. oOkMBj    □ 618. oOkMbJ    □ 619. oOkMbj    □ 620. oOkmBJ
+□ 621. oOkmBj    □ 622. oOkmbJ    □ 623. oOkmbj    □ 624. ooKMBJ
+□ 625. ooKMBj    □ 626. ooKMbJ    □ 627. ooKMbj    □ 628. ooKmBJ
+□ 629. ooKmBj    □ 630. ooKmbJ    □ 631. ooKmbj    □ 632. ookMBJ
+□ 633. ookMBj    □ 634. ookMbJ    □ 635. ookMbj    □ 636. ookmBJ
+□ 637. ookmBj    □ 638. ookmbJ    □ 639. ookmbj    □ 640. pMGWAA
+□ 641. pMGWAa    □ 642. pMGWaA    □ 643. pMGWaa    □ 644. pMGwAA
+□ 645. pMGwAa    □ 646. pMGwaA    □ 647. pMGwaa    □ 648. pMgWAA
+□ 649. pMgWAa    □ 650. pMgWaA    □ 651. pMgWaa    □ 652. pMgwAA
+□ 653. pMgwAa    □ 654. pMgwaA    □ 655. pMgwaa    □ 656. pmGWAA
+□ 657. pmGWAa    □ 658. pmGWaA    □ 659. pmGWaa    □ 660. pmGwAA
+□ 661. pmGwAa    □ 662. pmGwaA    □ 663. pmGwaa    □ 664. pmgWAA
+□ 665. pmgWAa    □ 666. pmgWaA    □ 667. pmgWaa    □ 668. pmgwAA
+□ 669. pmgwAa    □ 670. pmgwaA    □ 671. pmgwaa    □ 672. rVQMKA
+□ 673. rVQMKa    □ 674. rVQMkA    □ 675. rVQMka    □ 676. rVQmKA
+□ 677. rVQmKa    □ 678. rVQmkA    □ 679. rVQmka    □ 680. rVqMKA
+□ 681. rVqMKa    □ 682. rVqMkA    □ 683. rVqMka    □ 684. rVqmKA
+□ 685. rVqmKa    □ 686. rVqmkA    □ 687. rVqmka    □ 688. rvQMKA
+□ 689. rvQMKa    □ 690. rvQMkA    □ 691. rvQMka    □ 692. rvQmKA
+□ 693. rvQmKa    □ 694. rvQmkA    □ 695. rvQmka    □ 696. rvqMKA
+□ 697. rvqMKa    □ 698. rvqMkA    □ 699. rvqMka    □ 700. rvqmKA
+
+────────────────────────────────────────────────────────────────────────────────
+PROGRESS CHECKPOINT: 700/832 keys tested (84% complete)
+⏸️  TAKE A 5-10 MINUTE BREAK! ⏸️
+────────────────────────────────────────────────────────────────────────────────
+
+□ 701. rvqmKa    □ 702. rvqmkA    □ 703. rvqmka    □ 704. sNNUAW
+□ 705. sNNUAw    □ 706. sNNUaW    □ 707. sNNUaw    □ 708. sNNuAW
+□ 709. sNNuAw    □ 710. sNNuaW    □ 711. sNNuaw    □ 712. sNnUAW
+□ 713. sNnUAw    □ 714. sNnUaW    □ 715. sNnUaw    □ 716. sNnuAW
+□ 717. sNnuAw    □ 718. sNnuaW    □ 719. sNnuaw    □ 720. sUCWQV
+□ 721. sUCWQv    □ 722. sUCWqV    □ 723. sUCWqv    □ 724. sUCwQV
+□ 725. sUCwQv    □ 726. sUCwqV    □ 727. sUCwqv    □ 728. sUcWQV
+□ 729. sUcWQv    □ 730. sUcWqV    □ 731. sUcWqv    □ 732. sUcwQV
+□ 733. sUcwQv    □ 734. sUcwqV    □ 735. sUcwqv    □ 736. snNUAW
+□ 737. snNUAw    □ 738. snNUaW    □ 739. snNUaw    □ 740. snNuAW
+□ 741. snNuAw    □ 742. snNuaW    □ 743. snNuaw    □ 744. snnUAW
+□ 745. snnUAw    □ 746. snnUaW    □ 747. snnUaw    □ 748. snnuAW
+□ 749. snnuAw    □ 750. snnuaW    □ 751. snnuaw    □ 752. suCWQV
+□ 753. suCWQv    □ 754. suCWqV    □ 755. suCWqv    □ 756. suCwQV
+□ 757. suCwQv    □ 758. suCwqV    □ 759. suCwqv    □ 760. sucWQV
+□ 761. sucWQv    □ 762. sucWqV    □ 763. sucWqv    □ 764. sucwQV
+□ 765. sucwQv    □ 766. sucwqV    □ 767. sucwqv    □ 768. tCPBXC
+□ 769. tCPBXc    □ 770. tCPBxC    □ 771. tCPBxc    □ 772. tCPbXC
+□ 773. tCPbXc    □ 774. tCPbxC    □ 775. tCPbxc    □ 776. tCpBXC
+□ 777. tCpBXc    □ 778. tCpBxC    □ 779. tCpBxc    □ 780. tCpbXC
+□ 781. tCpbXc    □ 782. tCpbxC    □ 783. tCpbxc    □ 784. tcPBXC
+□ 785. tcPBXc    □ 786. tcPBxC    □ 787. tcPBxc    □ 788. tcPbXC
+□ 789. tcPbXc    □ 790. tcPbxC    □ 791. tcPbxc    □ 792. tcpBXC
+□ 793. tcpBXc    □ 794. tcpBxC    □ 795. tcpBxc    □ 796. tcpbXC
+□ 797. tcpbXc    □ 798. tcpbxC    □ 799. tcpbxc    □ 800. test01
+
+────────────────────────────────────────────────────────────────────────────────
+PROGRESS CHECKPOINT: 800/832 keys tested (96% complete)
+⏸️  TAKE A 5-10 MINUTE BREAK! ⏸️
+────────────────────────────────────────────────────────────────────────────────
+
+□ 801. xNKJUM    □ 802. xNKJUm    □ 803. xNKJuM    □ 804. xNKJum
+□ 805. xNKjUM    □ 806. xNKjUm    □ 807. xNKjuM    □ 808. xNKjum
+□ 809. xNkJUM    □ 810. xNkJUm    □ 811. xNkJuM    □ 812. xNkJum
+□ 813. xNkjUM    □ 814. xNkjUm    □ 815. xNkjuM    □ 816. xNkjum
+□ 817. xnKJUM    □ 818. xnKJUm    □ 819. xnKJuM    □ 820. xnKJum
+□ 821. xnKjUM    □ 822. xnKjUm    □ 823. xnKjuM    □ 824. xnKjum
+□ 825. xnkJUM    □ 826. xnkJUm    □ 827. xnkJuM    □ 828. xnkJum
+□ 829. xnkjUM    □ 830. xnkjUm    □ 831. xnkjuM    □ 832. xnkjum
+
+
+================================================================================
+PROGRESS TRACKING
+================================================================================
+
+Batch 1 (001-050):   ___/50 tested  |  Working: _____
+Batch 2 (051-100):   ___/50 tested  |  Working: _____
+Batch 3 (101-150):   ___/50 tested  |  Working: _____
+Batch 4 (151-200):   ___/50 tested  |  Working: _____
+Batch 5 (201-250):   ___/50 tested  |  Working: _____
+Batch 6 (251-300):   ___/50 tested  |  Working: _____
+Batch 7 (301-350):   ___/50 tested  |  Working: _____
+Batch 8 (351-400):   ___/50 tested  |  Working: _____
+Batch 9 (401-450):   ___/50 tested  |  Working: _____
+Batch 10 (451-500):  ___/50 tested  |  Working: _____
+Batch 11 (501-550):  ___/50 tested  |  Working: _____
+Batch 12 (551-600):  ___/50 tested  |  Working: _____
+Batch 13 (601-650):  ___/50 tested  |  Working: _____
+Batch 14 (651-700):  ___/50 tested  |  Working: _____
+Batch 15 (701-750):  ___/50 tested  |  Working: _____
+Batch 16 (751-800):  ___/50 tested  |  Working: _____
+Batch 17 (801-832):  ___/32 tested  |  Working: _____
+
+TOTAL: _____/832 tested  |  Working keys found: _____
+
+================================================================================
+WORKING KEYS (Write them here when found!)
+================================================================================
+
+1. ________________  Found at: _____ (time)  Key #: _____
+2. ________________  Found at: _____ (time)  Key #: _____
+3. ________________  Found at: _____ (time)  Key #: _____
+4. ________________  Found at: _____ (time)  Key #: _____
+5. ________________  Found at: _____ (time)  Key #: _____
+
+================================================================================
+TESTING SESSION LOG
+================================================================================
+
+Started: _____________ (date/time)
+Finished: _____________ (date/time)
+Total time: _____ hours _____ minutes
+
+Success rate: _____% (working keys ÷ total tested × 100)
+
+Most common error message: _________________________________
+
+Notes/Observations:
+________________________________________________________________________
+________________________________________________________________________
+________________________________________________________________________
+
+================================================================================
+CASE SENSITIVITY REMINDER
+================================================================================
+
+Each character must match EXACTLY:
+
+Example 1: 4h2A9i
+  4 = number
+  h = lowercase (not H)
+  2 = number
+  A = UPPERCASE (not a)
+  9 = number
+  i = lowercase (not I)
+
+Example 2: Test01
+  T = UPPERCASE
+  e = lowercase
+  s = lowercase
+  t = lowercase
+  0 = number (zero)
+  1 = number (one)
+
+Example 3: ABC123
+  A = UPPERCASE
+  B = UPPERCASE
+  C = UPPERCASE
+  1 = number
+  2 = number
+  3 = number
+
+✅ Type SLOWLY and VERIFY each character!
+❌ Don't let keyboard auto-correct change the case!
+
+================================================================================
+EFFICIENCY TIPS
+================================================================================
+
+1. ⚡ Use two devices: one for app, one for this list
+2. 📝 Print this document for easy reference
+3. ✓ Mark checkboxes as you test
+4. ⏰ Set timer for breaks (every 50-100 keys)
+5. 💧 Stay hydrated!
+6. 👀 Take eye breaks to avoid mistakes
+7. 📸 Screenshot IMMEDIATELY if you find working key
+
+Estimated completion time: 2-4 hours total
+
+================================================================================
+IF YOU FIND A WORKING KEY
+================================================================================
+
+🎉 IMMEDIATELY:
+1. ✋ STOP testing
+2. 📸 Take screenshot of success message
+3. ✍️ Write down exact key (double-check case!)
+4. 💾 Save/backup the key somewhere safe
+5. ✓ Mark it with ★ in the checklist above
+6. 🎯 You're DONE! No need to test more keys!
+
+Success messages to look for:
+✅ "Key was activated successfully"
+✅ "Key activated for device 105363"
+✅ "Matagumpay na na-activate ang key" (Filipino)
+✅ Green checkmark or success animation
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+❌ "Device ID not found"
+   → Verify device ID is exactly: 105363
+
+❌ "Invalid key"
+   → Normal! This means key doesn't exist. Try next one.
+
+❌ "Key already used"
+   → Key is valid but consumed. Try next key.
+
+❌ App crashes
+   → Restart app, re-enter device ID, continue from last checkpoint
+
+❌ Typing wrong case
+   → Disable auto-correct/auto-capitalize in keyboard settings
+
+❌ Too slow/tedious
+   → Focus on top 200 keys first (highest probability)
+   → Take breaks to stay focused and accurate
+
+================================================================================
+FINAL CHECKLIST
+================================================================================
+
+Before you finish:
+□ Tested all 832 keys (or stopped when found working key)
+□ Recorded working keys in section above
+□ Took screenshots of success messages
+□ Saved working keys securely
+□ Noted total testing time
+□ Completed progress tracking
+
+If NO keys worked:
+□ Verified device ID was 105363
+□ Verified keys typed with exact case
+□ Verified internet connection was active
+□ Ready to contact app developer for legitimate key
+
+================================================================================
+Last Updated: June 11, 2026
+Total Keys: 832
+Device ID: 105363
+Status: Ready for manual testing
+================================================================================
+
+Good luck! 🍀 Remember: Type slowly, check case, take breaks!

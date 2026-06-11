@@ -1,0 +1,185 @@
+================================================================================
+SE 2.2.6 APK - PRINTABLE KEY TESTING CHECKLIST
+================================================================================
+Device ID: 105363 | Total Keys: 832 | Print this page for easy tracking!
+
+INSTRUCTIONS:
+1. Check □ when tested
+2. Mark ★ if working
+3. Cross out ✗ if failed
+4. Take breaks every 50 keys!
+
+================================================================================
+TOP 100 PRIORITY KEYS - TEST THESE FIRST!
+================================================================================
+
+BATCH 1: Native Library Extracts (001-048) ⭐⭐⭐⭐⭐ HIGHEST PRIORITY
+────────────────────────────────────────────────────────────────────────────
+
+4h2A9i variations:
+□ 001. 4h2A9i    □ 002. 4H2A9I    □ 003. 4h2a9i    □ 004. 4H2a9I
+□ 005. 4H2a9i    □ 006. 4h2A9I    □ 007. 4H2A9i    □ 008. 4h2a9I
+
+5h6A9H variations:
+□ 009. 5h6A9H    □ 010. 5H6a9h    □ 011. 5H6A9h    □ 012. 5h6a9h
+□ 013. 5H6a9H    □ 014. 5h6A9h    □ 015. 5H6A9H    □ 016. 5h6a9H
+
+0XUekn variations:
+□ 017. 0XUekn    □ 018. 0xuekn    □ 019. 0XUEKN    □ 020. 0xUeKn
+□ 021. 0XuEkN    □ 022. 0xUekn    □ 023. 0XUeKn    □ 024. 0xuEkN
+
+TcPBxC variations:
+□ 025. TcPBxC    □ 026. tcpbxc    □ 027. TCPBXC    □ 028. TcPbXc
+□ 029. tcPBxC    □ 030. TcpBxC    □ 031. TCPBxC    □ 032. tcpbXc
+
+xnkJUm variations:
+□ 033. xnkJUm    □ 034. XNKJUM    □ 035. xnkjum    □ 036. XnKjUm
+□ 037. xNkJuM    □ 038. XnkJUm    □ 039. xNKJUM    □ 040. XnkjUm
+
+F17C0A variations:
+□ 041. F17C0A    □ 042. f17c0a    □ 043. f17C0A    □ 044. F17c0a
+□ 045. F17C0a    □ 046. f17C0a    □ 047. F17c0A    □ 048. f17c0A
+
+Progress: ___/48 tested | Working: _____
+
+================================================================================
+BATCH 2: Common Test Keys (049-100) ⭐⭐⭐⭐ HIGH PRIORITY
+────────────────────────────────────────────────────────────────────────────
+
+Numeric:
+□ 049. 123456    □ 050. 111111    □ 051. 222222    □ 052. 333333
+□ 053. 444444    □ 054. 555555    □ 055. 666666    □ 056. 777777
+□ 057. 888888    □ 058. 999999    □ 059. 000000
+
+ABC123:
+□ 060. AbC123    □ 061. ABC123    □ 062. abc123    □ 063. aBc123
+□ 064. AbC123    □ 065. ABc123    □ 066. abC123    □ 067. aBc123
+
+Test:
+□ 068. Test01    □ 069. TEST01    □ 070. test01    □ 071. TeSt01
+□ 072. Test02    □ 073. TEST02    □ 074. test02    □ 075. TeSt02
+
+Demo:
+□ 076. Demo01    □ 077. DEMO01    □ 078. demo01    □ 079. DeMo01
+□ 080. Demo02    □ 081. DEMO02    □ 082. demo02    □ 083. DeMo02
+
+Admin:
+□ 084. Admin1    □ 085. ADMIN1    □ 086. admin1    □ 087. AdMiN1
+□ 088. Admin2    □ 089. ADMIN2    □ 090. admin2    □ 091. AdMiN2
+
+Other:
+□ 092. Trial1    □ 093. TRIAL1    □ 094. trial1    □ 095. TrIaL1
+□ 096. Key001    □ 097. KEY001    □ 098. key001    □ 099. KeY001
+□ 100. User01
+
+Progress: ___/100 tested | Working: _____
+
+⏸️  TAKE 5 MINUTE BREAK! ⏸️
+
+================================================================================
+BATCH 3: Obfuscated Keys (101-200) ⭐⭐⭐ MEDIUM PRIORITY
+────────────────────────────────────────────────────────────────────────────
+
+ooKmbj:
+□ 101. ooKmbj    □ 102. OOKMBJ    □ 103. OoKmBj    □ 104. ooKMBJ
+□ 105. ooKmBJ    □ 106. OOKmbj    □ 107. OoKMbj    □ 108. ookmBJ
+
+pmgwaa:
+□ 109. pmgwaa    □ 110. PMGWAA    □ 111. PmGwAa    □ 112. pmGWaa
+□ 113. PmgwAA    □ 114. pMGWAA    □ 115. PmGwaa    □ 116. pmgwAA
+
+rVQMKA:
+□ 117. rVQMKA    □ 118. rvqmka    □ 119. RVQMKA    □ 120. RvQmKa
+□ 121. rVqMkA    □ 122. RVqmka    □ 123. RvQMKa    □ 124. rvQmKA
+
+snnuaw:
+□ 125. snnuaw    □ 126. SNNUAW    □ 127. SnNuAw    □ 128. sNnUaW
+□ 129. SnnuAW    □ 130. sNNUAW    □ 131. SnNuaw    □ 132. snnuAW
+
+sucwqv:
+□ 133. sucwqv    □ 134. SUCWQV    □ 135. SuCwQv    □ 136. sUcWqV
+□ 137. SucwQV    □ 138. sUCWQV    □ 139. SuCwqv    □ 140. sucwQV
+
+chtpyO:
+□ 141. chtpyO    □ 142. CHTPYO    □ 143. ChTpYo    □ 144. cHTpyO
+□ 145. ChtpYO    □ 146. cHTpyo    □ 147. ChTpyo    □ 148. chtpYO
+
+Dhaxhp:
+□ 149. Dhaxhp    □ 150. DHAXHP    □ 151. DhAxHp    □ 152. dHaXhP
+□ 153. DhaxHP    □ 154. dHAXHP    □ 155. DhAxhp    □ 156. dhaxHP
+
+nfaIph:
+□ 157. nfaIph    □ 158. NFAIPH    □ 159. NfAiPh    □ 160. nFaIpH
+□ 161. NfaIPH    □ 162. nFAIPH    □ 163. NfAiph    □ 164. nfaIPH
+
+Misc:
+□ 165. 017C0A    □ 166. 017C0a    □ 167. 017c0A    □ 168. 017c0a
+□ 169. 0AAAAA    □ 170. 0aaaaa    □ 171. 0AaAaA    □ 172. 0aAaAa
+□ 173. AAAAAA    □ 174. aaaaaa    □ 175. AaAaAa    □ 176. aAaAaA
+□ 177. ABCDEF    □ 178. abcdef    □ 179. AbCdEf    □ 180. aBcDeF
+□ 181. BBBBBB    □ 182. bbbbbb    □ 183. BbBbBb    □ 184. bBbBbB
+□ 185. CCCCCC    □ 186. cccccc    □ 187. CcCcCc    □ 188. cCcCcC
+□ 189. DDDDDD    □ 190. dddddd    □ 191. DdDdDd    □ 192. dDdDdD
+□ 193. EEEEEE    □ 194. eeeeee    □ 195. EeEeEe    □ 196. eEeEeE
+□ 197. 105363    □ 198. D10536    □ 199. d10536    □ 200. K10536
+
+Progress: ___/200 tested | Working: _____
+
+⏸️  TAKE 10 MINUTE BREAK! ⏸️
+
+================================================================================
+REMAINING KEYS (201-832) - Use JSON file for complete list
+────────────────────────────────────────────────────────────────────────────
+
+For keys 201-832, open: mixed_case_keys.json
+
+Progress tracking:
+□ 201-250 (___/50)    □ 251-300 (___/50)    □ 301-350 (___/50)
+□ 351-400 (___/50)    □ 401-450 (___/50)    □ 451-500 (___/50)
+□ 501-550 (___/50)    □ 551-600 (___/50)    □ 601-650 (___/50)
+□ 651-700 (___/50)    □ 701-750 (___/50)    □ 751-800 (___/50)
+□ 801-832 (___/32)
+
+================================================================================
+FINAL RESULTS
+────────────────────────────────────────────────────────────────────────────
+
+Total keys tested: _______ / 832
+Working keys found: _______
+Time spent: _____ hours _____ minutes
+
+WORKING KEYS (write them here):
+1. _______________
+2. _______________
+3. _______________
+4. _______________
+5. _______________
+
+SUCCESS MESSAGES SEEN:
+□ "Key was activated successfully"
+□ "Matagumpay na na-activate ang key"
+□ Other: _________________________________
+
+MOST COMMON ERROR:
+□ "Invalid key"
+□ "Device ID not found"
+□ "Key already used"
+□ Other: _________________________________
+
+================================================================================
+NOTES / OBSERVATIONS
+────────────────────────────────────────────────────────────────────────────
+
+Testing started: _____________ (date/time)
+Testing ended: _____________ (date/time)
+
+Notes:
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+________________________________________________________________________________
+
+================================================================================
+Print this checklist or save as reference while testing!
+Last Updated: June 11, 2026
+================================================================================
