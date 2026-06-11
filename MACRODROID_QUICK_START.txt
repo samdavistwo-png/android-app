@@ -1,0 +1,227 @@
+================================================================================
+MacroDroid Quick Start - SE 2.2.6 Auto Key Tester
+================================================================================
+OPPO K13 5G (1080x2400) | Device ID: 105363 | 832 Keys
+
+⚡ FASTEST SETUP - SEMI-AUTOMATIC HELPER ⚡
+
+================================================================================
+STEP 1: Install MacroDroid (5 minutes)
+================================================================================
+
+1. Open Play Store
+2. Search "MacroDroid"
+3. Install "MacroDroid - Device Automation" by ArloSoft
+4. Open MacroDroid
+5. Grant ALL permissions (Accessibility, Display, etc.)
+
+================================================================================
+STEP 2: Create Helper Macro (10 minutes)
+================================================================================
+
+In MacroDroid:
+
+1. Tap "+" to add new macro
+2. Name: "Quick Key Test"
+
+3. TRIGGER:
+   - Select: "Volume Button"
+   - Choose: "Volume Down"
+   - Pattern: "3 quick presses"
+
+4. ACTIONS (add these in order):
+
+   A. Wait
+      - Duration: 2 seconds
+
+   B. Launch App
+      - Select: SE 2.2.6 (com.snake)
+
+   C. Wait
+      - Duration: 2 seconds
+
+   D. UI Interaction - Click Coordinate
+      - X: 540
+      - Y: 943
+      - (This taps "Entry Key" button)
+
+   E. Wait
+      - Duration: 2 seconds
+
+   F. UI Interaction - Click Coordinate
+      - X: 540
+      - Y: 541
+      - (This taps key input field)
+
+   G. Wait
+      - Duration: 1 second
+
+   H. Paste Text
+      - From clipboard
+
+   I. Wait
+      - Duration: 1 second
+
+   J. UI Interaction - Click Coordinate
+      - X: 834
+      - Y: 657
+      - (This taps "Activate" button)
+
+   K. Wait
+      - Duration: 3 seconds
+
+   L. Take Screenshot
+      - Save to: /sdcard/Pictures/
+      - Filename: keytest_{datetime}.png
+
+   M. Force Close App
+      - App: com.snake
+
+5. CONSTRAINTS: None
+
+6. Save macro
+
+================================================================================
+STEP 3: How to Use (3-4 hours total)
+================================================================================
+
+FOR EACH KEY (repeat 832 times):
+
+1. Open: ALL_832_KEYS_FULL_LIST.txt on your phone
+2. Long-press key (e.g., "000000")
+3. Tap "Copy"
+4. Press Volume Down button 3 times quickly (click-click-click)
+5. Macro runs automatically:
+   - Opens SE app ✓
+   - Taps Entry Key ✓
+   - Pastes your key ✓
+   - Taps Activate ✓
+   - Takes screenshot ✓
+   - Closes app ✓
+6. Look at screenshot to see result
+7. If "activated successfully" → STOP! You found it!
+8. If error → go to next key (copy key #002)
+
+Time per key: ~15 seconds
+Total time: 832 × 15s = 208 minutes (3.5 hours)
+
+================================================================================
+KEYBOARD SHORTCUT (Even Faster!)
+================================================================================
+
+Instead of copying each key:
+
+1. Open ALL_832_KEYS_FULL_LIST.txt in split-screen:
+   - Top half: Text file
+   - Bottom half: (empty, for app)
+
+2. When macro runs:
+   - Top half shows keys
+   - Bottom half shows SE app
+   - You can copy-paste quickly
+
+================================================================================
+COORDINATES REFERENCE
+================================================================================
+
+Screen: 1080 x 2400 pixels
+
+Tap Points:
+- Entry Key button:  X=540, Y=943
+- Key input field:   X=540, Y=541
+- Activate button:   X=834, Y=657
+- Back button:       X=98,  Y=77
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Macro doesn't work?
+→ Check Accessibility is enabled for MacroDroid
+→ Settings → Accessibility → MacroDroid → ON
+
+Taps missing buttons?
+→ Adjust coordinates ±10 pixels if needed
+
+Keys not pasting?
+→ Make sure you copied the key first
+→ Try "Type Text" instead of "Paste"
+
+Screen locks during testing?
+→ Settings → Display → Sleep → Never
+→ Or keep phone plugged in
+
+================================================================================
+SUCCESS INDICATORS
+================================================================================
+
+Working key found when screenshot shows:
+✅ "Key was activated successfully"
+✅ "Matagumpay na na-activate ang key"
+✅ Green checkmark or success message
+
+Failed key shows:
+❌ "Invalid key"
+❌ "Device ID not found"
+❌ Red error message
+
+================================================================================
+BEFORE YOU START
+================================================================================
+
+Checklist:
+□ MacroDroid installed
+□ Accessibility enabled for MacroDroid
+□ SE 2.2.6 app installed
+□ Phone charged (or plugged in)
+□ Screen sleep set to "Never"
+□ ALL_832_KEYS_FULL_LIST.txt downloaded
+□ Ready to spend 3-4 hours testing
+
+================================================================================
+QUICK TEST
+================================================================================
+
+Test the macro with ONE key first:
+
+1. Copy this test key: 123456
+2. Press Volume Down 3 times
+3. Watch the macro run
+4. Check screenshot
+
+If it works → proceed with all 832 keys!
+If it fails → check troubleshooting section
+
+================================================================================
+ALTERNATIVES
+================================================================================
+
+TOO TEDIOUS?
+→ See MACRODROID_AUTOMATION_GUIDE.md for FULL automation
+→ (Set it and forget it - runs all 832 keys automatically)
+
+DON'T WANT TO USE MACRODROID?
+→ Use manual method with ALL_832_KEYS_FULL_LIST.txt
+→ Just slower (typing each key by hand)
+
+================================================================================
+ESTIMATED TIME
+================================================================================
+
+Setup: 15 minutes
+Testing: 3-4 hours (semi-automatic with this helper)
+
+vs.
+
+Full automation (see guide): 2-3 hours (completely automatic)
+Manual testing (no tools): 6-8 hours (typing by hand)
+
+================================================================================
+
+Ready? Install MacroDroid and create the macro above!
+
+Last Updated: June 11, 2026
+Device: OPPO K13 5G
+Screen: 1080 x 2400
+Keys: 832 total
+================================================================================
