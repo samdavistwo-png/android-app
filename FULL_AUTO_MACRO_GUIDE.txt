@@ -1,0 +1,315 @@
+================================================================================
+FULLY AUTOMATIC MACRODROID MACRO - ALL 832 KEYS EMBEDDED
+================================================================================
+
+✅ FILE: QuickKeyTest_MacroDroid_FULL_AUTO.json
+
+⭐ COMPLETELY AUTOMATIC - NO MANUAL KEY COPYING REQUIRED! ⭐
+
+================================================================================
+WHAT THIS MACRO DOES
+================================================================================
+
+This macro contains ALL 832 keys embedded inside it and will:
+
+1. Automatically loop through ALL 832 keys
+2. Test each key one by one
+3. Take screenshots of each result
+4. STOP automatically when a working key is found
+5. Alert you with sound + notification when successful
+6. Show progress notifications every 50 keys
+
+NO MANUAL COPYING! Just press Volume Down 3x and let it run for 3-4 hours!
+
+================================================================================
+HOW IT WORKS
+================================================================================
+
+TRIGGER:
+- Volume Down button × 3 (quick presses)
+
+PROCESS:
+For each of the 832 keys:
+1. Opens SE 2.2.6 app
+2. Taps "Entry Key" button
+3. Taps key input field
+4. Types the key automatically (from embedded list)
+5. Taps "Activate" button
+6. Waits 5 seconds for validation
+7. Takes screenshot
+8. Checks if key was successful (OCR detection)
+9. If SUCCESS → Plays sound + Shows notification + STOPS
+10. If FAIL → Taps Close button + Closes app + Next key
+11. Every 50 keys → Shows progress notification
+
+TOTAL TIME: ~3-4 hours (15 seconds per key × 832 keys)
+
+================================================================================
+IMPORT INSTRUCTIONS
+================================================================================
+
+STEP 1: Download the file
+──────────────────────────
+On your phone:
+1. Go to: https://github.com/samdavistwo-png/android-app
+2. Find: QuickKeyTest_MacroDroid_FULL_AUTO.json
+3. Tap → Download/Raw → Save to Downloads
+
+STEP 2: Import into MacroDroid
+───────────────────────────────
+1. Open MacroDroid app
+2. Tap menu (☰) → Settings
+3. Tap "Backup & Restore"
+4. Tap "Restore Macros"
+5. Navigate to Downloads folder
+6. Select: QuickKeyTest_MacroDroid_FULL_AUTO.json
+7. Tap "Import"
+8. Wait for import to complete
+
+STEP 3: Enable Required Permissions
+────────────────────────────────────
+1. Tap "Enable Accessibility Service"
+2. Find MacroDroid → Toggle ON
+3. Tap "Allow"
+4. Grant all other permissions if requested
+
+================================================================================
+USAGE
+================================================================================
+
+BEFORE STARTING:
+1. ✅ Fully charge your phone (or plug it in)
+2. ✅ Enable "Keep screen on while charging" (Developer Options)
+3. ✅ Set screen sleep to "Never" (Settings → Display)
+4. ✅ Enable "Do Not Disturb" mode
+5. ✅ Close all other apps
+6. ✅ Make sure SE 2.2.6 app is installed
+
+TO START TESTING:
+1. Press Volume Down button 3 times quickly (click-click-click)
+2. Macro will start automatically
+3. Leave phone alone for 3-4 hours
+4. Check notifications for progress
+
+WHEN SUCCESSFUL KEY IS FOUND:
+- 🔔 Sound alert plays
+- 📱 Notification shows: "WORKING KEY FOUND! Key #XXX: XXXXXX"
+- 📸 Screenshot saved in Pictures/KeyTests/
+- ⏸️ Macro STOPS automatically
+- ✅ You're done!
+
+MONITORING PROGRESS:
+- Check notifications (every 50 keys tested)
+- Check Pictures/KeyTests/ folder for screenshots
+- Latest screenshot shows current key being tested
+
+================================================================================
+ALL 832 KEYS EMBEDDED IN MACRO
+================================================================================
+
+The macro contains this comma-separated list stored in variable "allKeys":
+
+000000,017C0A,017C0a,017c0A,017c0a,0XUEKN,0XUEKn,0XUEkN,0XUEkn,0XUeKN,
+0XUeKn,0XUekN,0XUekn,0XuEKN,0XuEKn,0XuEkN,0XuEkn,0XueKN,0XueKn,0XuekN,
+0Xuekn,0xUEKN,0xUEKn,0xUEkN,0xUEkn,0xUeKN,0xUeKn,0xUekN,0xUekn,0xuEKN,
+... (832 keys total) ...
+xnkjUM,xnkjUm,xnkjuM,xnkjum
+
+The macro uses string splitting to extract each key:
+- currentKey = split(allKeys, ',', keyIndex)
+- Types currentKey into the app
+- Increments keyIndex
+- Repeats for all 832 keys
+
+================================================================================
+COORDINATES (OPPO K13 5G - 1080 x 2400)
+================================================================================
+
+Screen taps:
+- Entry Key button:  X=540, Y=943
+- Key input field:   X=540, Y=541
+- Activate button:   X=834, Y=657
+- Close button:      X=474, Y=608
+
+Screenshots saved to: /sdcard/Pictures/KeyTests/
+Filename format: key_000_000000.png, key_001_017C0A.png, etc.
+
+================================================================================
+SUCCESS DETECTION (OCR)
+================================================================================
+
+The macro automatically detects success by looking for these words:
+✅ "valid"
+✅ "success"
+✅ "activated"
+✅ "Matagumpay" (Filipino for "successful")
+
+When found → STOPS immediately and alerts you!
+
+================================================================================
+WHAT TO EXPECT
+================================================================================
+
+SCREEN ACTIVITY:
+- SE app opens and closes repeatedly
+- Keys typed automatically
+- Validation dialogs appear briefly
+- Screenshots taken every ~15 seconds
+
+NOTIFICATIONS:
+- "Testing Progress: Tested 50/832 keys"
+- "Testing Progress: Tested 100/832 keys"
+- ... every 50 keys ...
+- "WORKING KEY FOUND! Key #XXX: XXXXXX" (when successful)
+- "Testing Complete" (if all 832 tested)
+
+SCREENSHOTS:
+- Pictures/KeyTests/key_000_000000.png
+- Pictures/KeyTests/key_001_017C0A.png
+- ... (832 screenshots total)
+
+ESTIMATED TIME:
+- 832 keys × 15 seconds = 12,480 seconds = 208 minutes = 3.5 hours
+- Most likely: Working key found in first 100-200 keys (25-50 minutes)
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Macro not starting?
+→ Check Accessibility is enabled for MacroDroid
+→ Settings → Accessibility → MacroDroid → ON
+
+Taps missing buttons?
+→ Adjust coordinates ±10 pixels if needed
+→ Edit macro actions manually
+
+Keys not typing correctly?
+→ Enable "Type slowly" option (already enabled)
+→ Increase delay between characters (default: 100ms)
+
+Screen turns off during testing?
+→ Enable "Keep screen on" in Developer Options
+→ Or plug in charger
+
+Macro stops unexpectedly?
+→ Check battery level
+→ Check if phone locked
+→ Check if app crashed
+
+Success not detected?
+→ Manually check screenshots in Pictures/KeyTests/
+→ Look for green checkmark or "valid" message
+→ OCR might miss some success messages
+
+================================================================================
+ADVANCED: EDITING THE MACRO
+================================================================================
+
+If you need to adjust the macro:
+
+1. Open MacroDroid
+2. Find macro: "SE Key Auto Test - All 832 Keys"
+3. Tap to edit
+4. Modify actions as needed:
+   - Wait times (if app is slow)
+   - Coordinates (if buttons moved)
+   - OCR keywords (if success message differs)
+5. Save
+
+VARIABLES USED:
+- keyIndex: Current key number (0-831)
+- totalKeys: Total keys to test (832)
+- currentKey: The key being tested right now
+- allKeys: Comma-separated list of all 832 keys
+
+================================================================================
+COMPARISON WITH OTHER MACROS
+================================================================================
+
+v1 MACRO (QuickKeyTest_MacroDroid.json):
+- Manual key copying required
+- You copy each key and press Vol Down 3x
+- ~832 manual actions
+
+v2 MACRO (QuickKeyTest_MacroDroid_v2.json):
+- Manual key copying required
+- Handles Close button properly
+- ~832 manual actions
+
+FULL AUTO MACRO (QuickKeyTest_MacroDroid_FULL_AUTO.json): ⭐ THIS ONE!
+- NO manual copying!
+- Press Vol Down 3x once and forget it
+- Completely automatic
+- Best option for unattended testing
+
+================================================================================
+FINAL CHECKLIST
+================================================================================
+
+Before running:
+□ Phone fully charged (or plugged in)
+□ Screen set to never sleep
+□ Do Not Disturb enabled
+□ MacroDroid installed
+□ Accessibility enabled for MacroDroid
+□ SE 2.2.6 app installed
+□ Macro imported successfully
+□ Ready to wait 3-4 hours
+
+To start:
+□ Press Volume Down × 3
+□ Put phone down
+□ Wait for notification
+□ Check results!
+
+================================================================================
+WHEN COMPLETE
+================================================================================
+
+WORKING KEY FOUND:
+1. Check notification for key number and value
+2. Open Pictures/KeyTests/ folder
+3. Find screenshot showing success
+4. Save the working key
+5. Use it in SE app
+6. Done! 🎉
+
+NO WORKING KEY FOUND (after all 832):
+1. Device 105363 may not be registered
+2. Contact app developer for legitimate key
+3. Review screenshots manually (look for anything unusual)
+
+================================================================================
+REPOSITORY
+================================================================================
+
+All files available at:
+https://github.com/samdavistwo-png/android-app
+
+Files:
+✅ QuickKeyTest_MacroDroid_FULL_AUTO.json (this macro)
+✅ FULL_AUTO_MACRO_GUIDE.txt (this guide)
+✅ ALL_832_KEYS_FULL_LIST.txt (manual reference)
+✅ mixed_case_keys.json (key database)
+
+================================================================================
+SUPPORT
+================================================================================
+
+Issues? Questions?
+1. Check troubleshooting section above
+2. Review screenshots manually
+3. Try manual testing with ALL_832_KEYS_FULL_LIST.txt
+
+================================================================================
+Last Updated: June 11, 2026
+Device: OPPO K13 5G (1080 x 2400)
+Total Keys: 832 (embedded in macro)
+Estimated Time: 3-4 hours (automatic)
+Version: Full Auto v1.0
+================================================================================
+
+🚀 Download QuickKeyTest_MacroDroid_FULL_AUTO.json and start testing!
+
+Good luck! 🍀

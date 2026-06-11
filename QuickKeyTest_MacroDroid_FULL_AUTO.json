@@ -1,0 +1,214 @@
+{
+  "m_name": "SE Key Auto Test - All 832 Keys",
+  "m_description": "Fully automatic testing of all 832 keys - Press Vol Down 3x to start",
+  "m_category": "Automation",
+  "m_enabled": true,
+  "m_triggerList": [
+    {
+      "t_type": "VOLUME_BUTTON",
+      "t_button": "VOLUME_DOWN",
+      "t_pattern": "THREE_PRESSES",
+      "t_screen_state": "ANY"
+    }
+  ],
+  "m_constraintList": [],
+  "m_actionList": [
+    {
+      "a_type": "SET_VARIABLE",
+      "a_variable_name": "keyIndex",
+      "a_variable_value": "0",
+      "a_comment": "Initialize key counter"
+    },
+    {
+      "a_type": "SET_VARIABLE",
+      "a_variable_name": "totalKeys",
+      "a_variable_value": "832",
+      "a_comment": "Total keys to test"
+    },
+    {
+      "a_type": "SET_VARIABLE",
+      "a_variable_name": "allKeys",
+      "a_variable_value": "000000,017C0A,017C0a,017c0A,017c0a,0XUEKN,0XUEKn,0XUEkN,0XUEkn,0XUeKN,0XUeKn,0XUekN,0XUekn,0XuEKN,0XuEKn,0XuEkN,0XuEkn,0XueKN,0XueKn,0XuekN,0Xuekn,0xUEKN,0xUEKn,0xUEkN,0xUEkn,0xUeKN,0xUeKn,0xUekN,0xUekn,0xuEKN,0xuEKn,0xuEkN,0xuEkn,0xueKN,0xueKn,0xuekN,0xuekn,111111,123456,4H2A9I,4H2A9i,4H2a9I,4H2a9i,4h2A9I,4h2A9i,4h2a9I,4h2a9i,5H6A9H,5H6A9h,5H6a9H,5H6a9h,5h6A9H,5h6A9h,5h6a9H,5h6a9h,999999,ABC123,AbC123,CHTPYO,CHTPYo,CHTPyO,CHTPyo,CHTpYO,CHTpYo,CHTpyO,CHTpyo,CHtPYO,CHtPYo,CHtPyO,CHtPyo,CHtpYO,CHtpYo,CHtpyO,CHtpyo,ChTPYO,ChTPYo,ChTPyO,ChTPyo,ChTpYO,ChTpYo,ChTpyO,ChTpyo,ChtPYO,ChtPYo,ChtPyO,ChtPyo,ChtpYO,ChtpYo,ChtpyO,Chtpyo,DEMO00,DEMO01,DEMO02,DEMO03,DEMO04,DEMO05,DEMO06,DEMO07,DEMO08,DEMO09,DEMO10,DEMO11,DEMO12,DEMO13,DEMO14,DEMO15,DEMO16,DEMO17,DEMO18,DEMO19,DHAXHP,DHAXHp,DHAXhP,DHAXhp,DHAxHP,DHAxHp,DHAxhP,DHAxhp,DHaXHP,DHaXHp,DHaXhP,DHaXhp,DHaxHP,DHaxHp,DHaxhP,DHaxhp,DeMo01,Demo00,Demo01,Demo02,Demo03,Demo04,Demo05,Demo06,Demo07,Demo08,Demo09,Demo10,Demo11,Demo12,Demo13,Demo14,Demo15,Demo16,Demo17,Demo18,Demo19,DhAXHP,DhAXHp,DhAXhP,DhAXhp,DhAxHP,DhAxHp,DhAxhP,DhAxhp,DhaXHP,DhaXHp,DhaXhP,DhaXhp,DhaxHP,DhaxHp,DhaxhP,Dhaxhp,F17C0A,F17C0a,F17c0A,F17c0a,NFAIPH,NFAIPh,NFAIpH,NFAIph,NFAiPH,NFAiPh,NFAipH,NFAiph,NFaIPH,NFaIPh,NFaIpH,NFaIph,NFaiPH,NFaiPh,NFaipH,NFaiph,NfAIPH,NfAIPh,NfAIpH,NfAIph,NfAiPH,NfAiPh,NfAipH,NfAiph,NfaIPH,NfaIPh,NfaIpH,NfaIph,NfaiPH,NfaiPh,NfaipH,Nfaiph,OOKMBJ,OOKMBj,OOKMbJ,OOKMbj,OOKmBJ,OOKmBj,OOKmbJ,OOKmbj,OOkMBJ,OOkMBj,OOkMbJ,OOkMbj,OOkmBJ,OOkmBj,OOkmbJ,OOkmbj,OoKMBJ,OoKMBj,OoKMbJ,OoKMbj,OoKmBJ,OoKmBj,OoKmbJ,OoKmbj,OokMBJ,OokMBj,OokMbJ,OokMbj,OokmBJ,OokmBj,OokmbJ,Ookmbj,PMGWAA,PMGWAa,PMGWaA,PMGWaa,PMGwAA,PMGwAa,PMGwaA,PMGwaa,PMgWAA,PMgWAa,PMgWaA,PMgWaa,PMgwAA,PMgwAa,PMgwaA,PMgwaa,PmGWAA,PmGWAa,PmGWaA,PmGWaa,PmGwAA,PmGwAa,PmGwaA,PmGwaa,PmgWAA,PmgWAa,PmgWaA,PmgWaa,PmgwAA,PmgwAa,PmgwaA,Pmgwaa,RVQMKA,RVQMKa,RVQMkA,RVQMka,RVQmKA,RVQmKa,RVQmkA,RVQmka,RVqMKA,RVqMKa,RVqMkA,RVqMka,RVqmKA,RVqmKa,RVqmkA,RVqmka,RvQMKA,RvQMKa,RvQMkA,RvQMka,RvQmKA,RvQmKa,RvQmkA,RvQmka,RvqMKA,RvqMKa,RvqMkA,RvqMka,RvqmKA,RvqmKa,RvqmkA,Rvqmka,SNNUAW,SNNUAw,SNNUaW,SNNUaw,SNNuAW,SNNuAw,SNNuaW,SNNuaw,SNnUAW,SNnUAw,SNnUaW,SNnUaw,SNnuAW,SNnuAw,SNnuaW,SNnuaw,SUCWQV,SUCWQv,SUCWqV,SUCWqv,SUCwQV,SUCwQv,SUCwqV,SUCwqv,SUcWQV,SUcWQv,SUcWqV,SUcWqv,SUcwQV,SUcwQv,SUcwqV,SUcwqv,SnNUAW,SnNUAw,SnNUaW,SnNUaw,SnNuAW,SnNuAw,SnNuaW,SnNuaw,SnnUAW,SnnUAw,SnnUaW,SnnUaw,SnnuAW,SnnuAw,SnnuaW,Snnuaw,SuCWQV,SuCWQv,SuCWqV,SuCWqv,SuCwQV,SuCwQv,SuCwqV,SuCwqv,SucWQV,SucWQv,SucWqV,SucWqv,SucwQV,SucwQv,SucwqV,Sucwqv,TCPBXC,TCPBXc,TCPBxC,TCPBxc,TCPbXC,TCPbXc,TCPbxC,TCPbxc,TCpBXC,TCpBXc,TCpBxC,TCpBxc,TCpbXC,TCpbXc,TCpbxC,TCpbxc,TEST00,TEST01,TEST02,TEST03,TEST04,TEST05,TEST06,TEST07,TEST08,TEST09,TEST10,TEST11,TEST12,TEST13,TEST14,TEST15,TEST16,TEST17,TEST18,TEST19,TcPBXC,TcPBXc,TcPBxC,TcPBxc,TcPbXC,TcPbXc,TcPbxC,TcPbxc,TcpBXC,TcpBXc,TcpBxC,TcpBxc,TcpbXC,TcpbXc,TcpbxC,Tcpbxc,TeSt01,Test00,Test01,Test02,Test03,Test04,Test05,Test06,Test07,Test08,Test09,Test10,Test11,Test12,Test13,Test14,Test15,Test16,Test17,Test18,Test19,USER00,USER01,USER02,USER03,USER04,USER05,USER06,USER07,USER08,USER09,USER10,USER11,USER12,USER13,USER14,USER15,USER16,USER17,USER18,USER19,User00,User01,User02,User03,User04,User05,User06,User07,User08,User09,User10,User11,User12,User13,User14,User15,User16,User17,User18,User19,XNKJUM,XNKJUm,XNKJuM,XNKJum,XNKjUM,XNKjUm,XNKjuM,XNKjum,XNkJUM,XNkJUm,XNkJuM,XNkJum,XNkjUM,XNkjUm,XNkjuM,XNkjum,XnKJUM,XnKJUm,XnKJuM,XnKJum,XnKjUM,XnKjUm,XnKjuM,XnKjum,XnkJUM,XnkJUm,XnkJuM,XnkJum,XnkjUM,XnkjUm,XnkjuM,Xnkjum,aBc123,abc123,cHTPYO,cHTPYo,cHTPyO,cHTPyo,cHTpYO,cHTpYo,cHTpyO,cHTpyo,cHtPYO,cHtPYo,cHtPyO,cHtPyo,cHtpYO,cHtpYo,cHtpyO,cHtpyo,chTPYO,chTPYo,chTPyO,chTPyo,chTpYO,chTpYo,chTpyO,chTpyo,chtPYO,chtPYo,chtPyO,chtPyo,chtpYO,chtpYo,chtpyO,chtpyo,dHAXHP,dHAXHp,dHAXhP,dHAXhp,dHAxHP,dHAxHp,dHAxhP,dHAxhp,dHaXHP,dHaXHp,dHaXhP,dHaXhp,dHaxHP,dHaxHp,dHaxhP,dHaxhp,demo01,dhAXHP,dhAXHp,dhAXhP,dhAXhp,dhAxHP,dhAxHp,dhAxhP,dhAxhp,dhaXHP,dhaXHp,dhaXhP,dhaXhp,dhaxHP,dhaxHp,dhaxhP,dhaxhp,f17C0A,f17C0a,f17c0A,f17c0a,nFAIPH,nFAIPh,nFAIpH,nFAIph,nFAiPH,nFAiPh,nFAipH,nFAiph,nFaIPH,nFaIPh,nFaIpH,nFaIph,nFaiPH,nFaiPh,nFaipH,nFaiph,nfAIPH,nfAIPh,nfAIpH,nfAIph,nfAiPH,nfAiPh,nfAipH,nfAiph,nfaIPH,nfaIPh,nfaIpH,nfaIph,nfaiPH,nfaiPh,nfaipH,nfaiph,oOKMBJ,oOKMBj,oOKMbJ,oOKMbj,oOKmBJ,oOKmBj,oOKmbJ,oOKmbj,oOkMBJ,oOkMBj,oOkMbJ,oOkMbj,oOkmBJ,oOkmBj,oOkmbJ,oOkmbj,ooKMBJ,ooKMBj,ooKMbJ,ooKMbj,ooKmBJ,ooKmBj,ooKmbJ,ooKmbj,ookMBJ,ookMBj,ookMbJ,ookMbj,ookmBJ,ookmBj,ookmbJ,ookmbj,pMGWAA,pMGWAa,pMGWaA,pMGWaa,pMGwAA,pMGwAa,pMGwaA,pMGwaa,pMgWAA,pMgWAa,pMgWaA,pMgWaa,pMgwAA,pMgwAa,pMgwaA,pMgwaa,pmGWAA,pmGWAa,pmGWaA,pmGWaa,pmGwAA,pmGwAa,pmGwaA,pmGwaa,pmgWAA,pmgWAa,pmgWaA,pmgWaa,pmgwAA,pmgwAa,pmgwaA,pmgwaa,rVQMKA,rVQMKa,rVQMkA,rVQMka,rVQmKA,rVQmKa,rVQmkA,rVQmka,rVqMKA,rVqMKa,rVqMkA,rVqMka,rVqmKA,rVqmKa,rVqmkA,rVqmka,rvQMKA,rvQMKa,rvQMkA,rvQMka,rvQmKA,rvQmKa,rvQmkA,rvQmka,rvqMKA,rvqMKa,rvqMkA,rvqMka,rvqmKA,rvqmKa,rvqmkA,rvqmka,sNNUAW,sNNUAw,sNNUaW,sNNUaw,sNNuAW,sNNuAw,sNNuaW,sNNuaw,sNnUAW,sNnUAw,sNnUaW,sNnUaw,sNnuAW,sNnuAw,sNnuaW,sNnuaw,sUCWQV,sUCWQv,sUCWqV,sUCWqv,sUCwQV,sUCwQv,sUCwqV,sUCwqv,sUcWQV,sUcWQv,sUcWqV,sUcWqv,sUcwQV,sUcwQv,sUcwqV,sUcwqv,snNUAW,snNUAw,snNUaW,snNUaw,snNuAW,snNuAw,snNuaW,snNuaw,snnUAW,snnUAw,snnUaW,snnUaw,snnuAW,snnuAw,snnuaW,snnuaw,suCWQV,suCWQv,suCWqV,suCWqv,suCwQV,suCwQv,suCwqV,suCwqv,sucWQV,sucWQv,sucWqV,sucWqv,sucwQV,sucwQv,sucwqV,sucwqv,tCPBXC,tCPBXc,tCPBxC,tCPBxc,tCPbXC,tCPbXc,tCPbxC,tCPbxc,tCpBXC,tCpBXc,tCpBxC,tCpBxc,tCpbXC,tCpbXc,tCpbxC,tCpbxc,tcPBXC,tcPBXc,tcPBxC,tcPBxc,tcPbXC,tcPbXc,tcPbxC,tcPbxc,tcpBXC,tcpBXc,tcpBxC,tcpBxc,tcpbXC,tcpbXc,tcpbxC,tcpbxc,test01,xNKJUM,xNKJUm,xNKJuM,xNKJum,xNKjUM,xNKjUm,xNKjuM,xNKjum,xNkJUM,xNkJUm,xNkJuM,xNkJum,xNkjUM,xNkjUm,xNkjuM,xNkjum,xnKJUM,xnKJUm,xnKJuM,xnKJum,xnKjUM,xnKjUm,xnKjuM,xnKjum,xnkJUM,xnkJUm,xnkJuM,xnkJum,xnkjUM,xnkjUm,xnkjuM,xnkjum",
+      "a_comment": "All 832 keys as comma-separated string"
+    },
+    {
+      "a_type": "LOOP_START",
+      "a_loop_count": 832,
+      "a_comment": "Loop through all 832 keys"
+    },
+    {
+      "a_type": "SET_VARIABLE",
+      "a_variable_name": "currentKey",
+      "a_variable_value": "{split({lv=allKeys},',',{lv=keyIndex})}",
+      "a_comment": "Extract current key from list"
+    },
+    {
+      "a_type": "WAIT",
+      "a_wait_duration": 2000,
+      "a_comment": "Wait for stability"
+    },
+    {
+      "a_type": "LAUNCH_APP",
+      "a_package_name": "com.snake",
+      "a_comment": "Launch SE 2.2.6 app"
+    },
+    {
+      "a_type": "WAIT",
+      "a_wait_duration": 2000,
+      "a_comment": "Wait for app to load"
+    },
+    {
+      "a_type": "UI_CLICK",
+      "a_x": 540,
+      "a_y": 943,
+      "a_comment": "Tap Entry Key button"
+    },
+    {
+      "a_type": "WAIT",
+      "a_wait_duration": 2000,
+      "a_comment": "Wait for screen transition"
+    },
+    {
+      "a_type": "UI_CLICK",
+      "a_x": 540,
+      "a_y": 541,
+      "a_comment": "Tap key input field"
+    },
+    {
+      "a_type": "WAIT",
+      "a_wait_duration": 1000,
+      "a_comment": "Wait for keyboard"
+    },
+    {
+      "a_type": "TYPE_TEXT",
+      "a_text": "{lv=currentKey}",
+      "a_use_clipboard": false,
+      "a_type_slowly": true,
+      "a_delay_between_chars": 100,
+      "a_comment": "Type the current key"
+    },
+    {
+      "a_type": "WAIT",
+      "a_wait_duration": 1000,
+      "a_comment": "Wait for text entry"
+    },
+    {
+      "a_type": "UI_CLICK",
+      "a_x": 834,
+      "a_y": 657,
+      "a_comment": "Tap Activate button"
+    },
+    {
+      "a_type": "WAIT",
+      "a_wait_duration": 5000,
+      "a_comment": "Wait for validation (loading + result)"
+    },
+    {
+      "a_type": "SCREENSHOT",
+      "a_save_location": "Pictures/KeyTests",
+      "a_filename": "key_{lv=keyIndex}_{lv=currentKey}",
+      "a_comment": "Screenshot the result dialog"
+    },
+    {
+      "a_type": "IF_CONDITION_OCR",
+      "a_ocr_text": "valid|success|activated|Matagumpay",
+      "a_case_sensitive": false,
+      "a_comment": "Check if key was successful"
+    },
+    {
+      "a_type": "PLAY_SOUND",
+      "a_sound": "NOTIFICATION",
+      "a_volume": 100,
+      "a_comment": "Alert on success"
+    },
+    {
+      "a_type": "NOTIFICATION",
+      "a_title": "WORKING KEY FOUND!",
+      "a_text": "Key #{lv=keyIndex}: {lv=currentKey}",
+      "a_priority": "HIGH",
+      "a_sound": true,
+      "a_vibrate": true,
+      "a_comment": "Show success notification"
+    },
+    {
+      "a_type": "STOP_MACRO",
+      "a_comment": "Stop testing - found working key!"
+    },
+    {
+      "a_type": "END_IF",
+      "a_comment": "End success check"
+    },
+    {
+      "a_type": "UI_CLICK",
+      "a_x": 474,
+      "a_y": 608,
+      "a_comment": "Tap Close button on result dialog"
+    },
+    {
+      "a_type": "WAIT",
+      "a_wait_duration": 1000,
+      "a_comment": "Wait for dialog to dismiss"
+    },
+    {
+      "a_type": "KILL_APP",
+      "a_package_name": "com.snake",
+      "a_comment": "Close SE app"
+    },
+    {
+      "a_type": "INCREMENT_VARIABLE",
+      "a_variable_name": "keyIndex",
+      "a_increment_by": 1,
+      "a_comment": "Move to next key"
+    },
+    {
+      "a_type": "IF_CONDITION",
+      "a_condition": "{lv=keyIndex} % 50 == 0",
+      "a_comment": "Progress notification every 50 keys"
+    },
+    {
+      "a_type": "NOTIFICATION",
+      "a_title": "Testing Progress",
+      "a_text": "Tested {lv=keyIndex}/832 keys",
+      "a_priority": "LOW",
+      "a_comment": "Progress update"
+    },
+    {
+      "a_type": "END_IF"
+    },
+    {
+      "a_type": "LOOP_END",
+      "a_comment": "End of loop - test next key"
+    },
+    {
+      "a_type": "NOTIFICATION",
+      "a_title": "Testing Complete",
+      "a_text": "Tested all 832 keys. Check screenshots for results.",
+      "a_priority": "HIGH",
+      "a_sound": true,
+      "a_vibrate": true,
+      "a_comment": "Final notification"
+    }
+  ],
+  "m_localVariables": [
+    {
+      "name": "keyIndex",
+      "type": "INTEGER",
+      "value": "0"
+    },
+    {
+      "name": "totalKeys",
+      "type": "INTEGER",
+      "value": "832"
+    },
+    {
+      "name": "currentKey",
+      "type": "STRING",
+      "value": ""
+    },
+    {
+      "name": "allKeys",
+      "type": "STRING",
+      "value": ""
+    }
+  ]
+}
