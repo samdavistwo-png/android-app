@@ -1,0 +1,198 @@
+================================================================================
+HOW TO IMPORT THE MACRODROID MACRO FILE
+================================================================================
+
+You have a ready-made MacroDroid macro file!
+Just import it instead of creating manually.
+
+================================================================================
+STEP 1: Download the Macro File
+================================================================================
+
+1. On your phone, open browser
+2. Go to: https://github.com/samdavistwo-png/android-app
+3. Find file: QuickKeyTest_MacroDroid.json
+4. Tap the file
+5. Tap "Download" or "Raw" button
+6. Save to your Downloads folder
+
+================================================================================
+STEP 2: Import into MacroDroid
+================================================================================
+
+Method A: Using File (RECOMMENDED)
+───────────────────────────────────
+
+1. Open MacroDroid app
+2. Tap menu (☰) top-left
+3. Select "Settings"
+4. Scroll down to "Backup & Restore"
+5. Tap "Restore Macros"
+6. Navigate to Downloads folder
+7. Select: QuickKeyTest_MacroDroid.json
+8. Tap "Import"
+9. Done! Macro is now installed
+
+Method B: Using Template Code
+──────────────────────────────
+
+If Method A doesn't work:
+
+1. Open MacroDroid
+2. Tap "+" to add new macro
+3. Tap menu (⋮) top-right
+4. Select "Import from Template"
+5. Paste the JSON code from QuickKeyTest_MacroDroid.json
+6. Tap "Import"
+
+================================================================================
+STEP 3: Enable Accessibility (REQUIRED!)
+================================================================================
+
+1. In MacroDroid, you'll see a warning
+2. Tap "Enable Accessibility Service"
+3. Find "MacroDroid" in the list
+4. Toggle it ON
+5. Tap "Allow"
+6. Go back to MacroDroid
+
+✅ You should see "Accessibility Enabled"
+
+================================================================================
+STEP 4: Test the Macro
+================================================================================
+
+1. Copy this test key: 123456
+   - Long-press on "123456"
+   - Tap "Copy"
+
+2. Press Volume Down button 3 times quickly
+   - Click-click-click (within 2 seconds)
+
+3. Watch it run:
+   - Opens SE app ✓
+   - Taps Entry Key ✓
+   - Pastes key ✓
+   - Taps Activate ✓
+   - Takes screenshot ✓
+   - Closes app ✓
+
+4. Check your screenshot in Pictures folder
+
+================================================================================
+STEP 5: Start Testing All 832 Keys
+================================================================================
+
+1. Open: ALL_832_KEYS_FULL_LIST.txt on your phone
+
+2. For each key (001-832):
+   - Long-press the key
+   - Tap "Copy"
+   - Press Volume Down 3 times
+   - Wait ~10 seconds for macro to finish
+   - Check screenshot for result
+   - If success → STOP! You found it!
+   - If fail → copy next key
+
+3. Estimated time: 3-4 hours
+
+================================================================================
+WHAT THE MACRO DOES
+================================================================================
+
+When you press Volume Down 3x:
+
+1. Waits 2 seconds
+2. Opens SE 2.2.6 app
+3. Waits 2 seconds for app to load
+4. Taps "Entry Key" button (coordinates: 540, 943)
+5. Waits 2 seconds for screen
+6. Taps key input field (coordinates: 540, 541)
+7. Waits 1 second for keyboard
+8. Pastes clipboard (your copied key)
+9. Waits 1 second
+10. Taps "Activate" button (coordinates: 834, 657)
+11. Waits 3 seconds for response
+12. Takes screenshot of result
+13. Closes SE app
+
+Total time per key: ~10-15 seconds
+
+================================================================================
+COORDINATES USED (FOR YOUR OPPO K13 5G)
+================================================================================
+
+Screen: 1080 x 2400 pixels
+
+Tap points:
+- Entry Key button:  X=540, Y=943
+- Key input field:   X=540, Y=541
+- Activate button:   X=834, Y=657
+
+These were taken from your screenshots!
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Macro imported but doesn't work?
+→ Make sure Accessibility is enabled
+→ Settings → Accessibility → MacroDroid → ON
+
+Taps are missing buttons?
+→ Edit macro
+→ Adjust coordinates ±10 pixels
+→ Test again
+
+Clipboard paste not working?
+→ Make sure you copied the key first
+→ Check clipboard has the key text
+
+App doesn't open?
+→ Make sure SE 2.2.6 is installed
+→ Check package name is "com.snake"
+
+================================================================================
+CUSTOMIZATION
+================================================================================
+
+Want to adjust the macro?
+
+1. Open MacroDroid
+2. Find "Quick Key Test" in list
+3. Tap it to edit
+4. You can change:
+   - Wait durations (if too fast/slow)
+   - Tap coordinates (if buttons missed)
+   - Screenshot location
+   - Trigger (use different button/gesture)
+
+================================================================================
+SUCCESS!
+================================================================================
+
+Once imported and tested successfully:
+
+✅ You don't need to create the macro manually
+✅ Just copy keys and press Volume Down 3x
+✅ Much faster than typing each key by hand
+✅ Screenshots saved automatically for review
+
+Time saved: 3-4 hours instead of 6-8 hours manual!
+
+================================================================================
+FILES YOU NEED
+================================================================================
+
+1. QuickKeyTest_MacroDroid.json - The macro file (import this)
+2. ALL_832_KEYS_FULL_LIST.txt - All 832 keys to test
+
+Both are on GitHub:
+https://github.com/samdavistwo-png/android-app
+
+================================================================================
+Last Updated: June 11, 2026
+Device: OPPO K13 5G (1080 x 2400)
+Screen coordinates verified from screenshots
+Total keys to test: 832
+================================================================================

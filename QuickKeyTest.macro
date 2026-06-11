@@ -1,0 +1,83 @@
+{
+  "name": "Quick Key Test",
+  "description": "Auto-tests SE 2.2.6 keys - Press Vol Down 3x after copying a key",
+  "triggers": [
+    {
+      "type": "VolumeButton",
+      "button": "VOLUME_DOWN",
+      "pattern": "THREE_PRESSES"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Wait",
+      "duration": 2000,
+      "comment": "Wait for stability"
+    },
+    {
+      "type": "LaunchApp",
+      "package": "com.snake",
+      "comment": "Launch SE 2.2.6 app"
+    },
+    {
+      "type": "Wait",
+      "duration": 2000,
+      "comment": "Wait for app to load"
+    },
+    {
+      "type": "ClickCoordinate",
+      "x": 540,
+      "y": 943,
+      "comment": "Tap Entry Key button"
+    },
+    {
+      "type": "Wait",
+      "duration": 2000,
+      "comment": "Wait for screen transition"
+    },
+    {
+      "type": "ClickCoordinate",
+      "x": 540,
+      "y": 541,
+      "comment": "Tap key input field"
+    },
+    {
+      "type": "Wait",
+      "duration": 1000,
+      "comment": "Wait for keyboard"
+    },
+    {
+      "type": "PasteClipboard",
+      "comment": "Paste the copied key"
+    },
+    {
+      "type": "Wait",
+      "duration": 1000,
+      "comment": "Wait for paste"
+    },
+    {
+      "type": "ClickCoordinate",
+      "x": 834,
+      "y": 657,
+      "comment": "Tap Activate button"
+    },
+    {
+      "type": "Wait",
+      "duration": 3000,
+      "comment": "Wait for response"
+    },
+    {
+      "type": "TakeScreenshot",
+      "saveLocation": "Pictures",
+      "filename": "keytest_{datetime}",
+      "comment": "Screenshot the result"
+    },
+    {
+      "type": "KillApp",
+      "package": "com.snake",
+      "comment": "Close SE app"
+    }
+  ],
+  "constraints": [],
+  "enabled": true
+}

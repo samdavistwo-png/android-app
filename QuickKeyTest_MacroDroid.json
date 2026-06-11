@@ -1,0 +1,74 @@
+{
+  "macros": [
+    {
+      "m_name": "Quick Key Test",
+      "m_description": "Auto-tests SE 2.2.6 keys. Copy a key, then press Volume Down 3 times quickly.",
+      "m_category": "SE Key Testing",
+      "m_enabled": true,
+      "m_triggerList": [
+        {
+          "t_volumeButton": 1,
+          "t_volumeButtonPresses": 3
+        }
+      ],
+      "m_actionList": [
+        {
+          "a_type": "WAIT",
+          "a_wait_duration": 2
+        },
+        {
+          "a_type": "LAUNCH_APP",
+          "a_package": "com.snake"
+        },
+        {
+          "a_type": "WAIT",
+          "a_wait_duration": 2
+        },
+        {
+          "a_type": "UI_CLICK",
+          "a_x": 540,
+          "a_y": 943
+        },
+        {
+          "a_type": "WAIT",
+          "a_wait_duration": 2
+        },
+        {
+          "a_type": "UI_CLICK",
+          "a_x": 540,
+          "a_y": 541
+        },
+        {
+          "a_type": "WAIT",
+          "a_wait_duration": 1
+        },
+        {
+          "a_type": "PASTE_CLIPBOARD"
+        },
+        {
+          "a_type": "WAIT",
+          "a_wait_duration": 1
+        },
+        {
+          "a_type": "UI_CLICK",
+          "a_x": 834,
+          "a_y": 657
+        },
+        {
+          "a_type": "WAIT",
+          "a_wait_duration": 3
+        },
+        {
+          "a_type": "SCREENSHOT",
+          "a_save_location": "Pictures",
+          "a_filename": "keytest"
+        },
+        {
+          "a_type": "KILL_APP",
+          "a_package": "com.snake"
+        }
+      ],
+      "m_constraintList": []
+    }
+  ]
+}
