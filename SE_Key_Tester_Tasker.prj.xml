@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TaskerData sr="" dvi="1" tv="6.2.20">
+  <Profile sr="prof1" ve="2">
+    <cdate>1718107200000</cdate>
+    <edate>1718107200000</edate>
+    <id>1</id>
+    <mid0>2</mid0>
+    <Event sr="con0" ve="2">
+      <code>1001</code>
+      <pri>0</pri>
+      <Bundle sr="arg">
+        <Vals sr="val">
+          <net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%evtprm1
+Event Parameter 1
+The first parameter of the event.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%evtprm2
+Event Parameter 2
+The second parameter of the event.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%evtprm3
+Event Parameter 3
+The third parameter of the event.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+          <net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+        </Vals>
+      </Bundle>
+      <Str sr="arg0" ve="3">Volume Down 3x</Str>
+      <Int sr="arg1" val="0"/>
+    </Event>
+    <nme>SE Auto Key Test</nme>
+  </Profile>
+  <Task sr="task2">
+    <cdate>1718107200000</cdate>
+    <edate>1718107200000</edate>
+    <id>2</id>
+    <nme>Test All 832 Keys</nme>
+    <pri>100</pri>
+    <Action sr="act0" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%KeyIndex</Str>
+      <Str sr="arg1" ve="3">1</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+      <Str sr="arg6" ve="3"/>
+    </Action>
+    <Action sr="act1" ve="7">
+      <code>547</code>
+      <Str sr="arg0" ve="3">%AllKeys</Str>
+      <Str sr="arg1" ve="3">000000,017C0A,017C0a,017c0A,017c0a,0XUEKN,0XUEKn,0XUEkN,0XUEkn,0XUeKN,0XUeKn,0XUekN,0XUekn,0XuEKN,0XuEKn,0XuEkN,0XuEkn,0XueKN,0XueKn,0XuekN,0Xuekn,0xUEKN,0xUEKn,0xUEkN,0xUEkn,0xUeKN,0xUeKn,0xUekN,0xUekn,0xuEKN,0xuEKn,0xuEkN,0xuEkn,0xueKN,0xueKn,0xuekN,0xuekn,111111,123456,4H2A9I,4H2A9i,4H2a9I,4H2a9i,4h2A9I,4h2A9i,4h2a9I,4h2a9i,5H6A9H,5H6A9h,5H6a9H,5H6a9h,5h6A9H,5h6A9h,5h6a9H,5h6a9h,999999,ABC123,AbC123,CHTPYO,CHTPYo,CHTPyO,CHTPyo,CHTpYO,CHTpYo,CHTpyO,CHTpyo,CHtPYO,CHtPYo,CHtPyO,CHtPyo,CHtpYO,CHtpYo,CHtpyO,CHtpyo,ChTPYO,ChTPYo,ChTPyO,ChTPyo,ChTpYO,ChTpYo,ChTpyO,ChTpyo,ChtPYO,ChtPYo,ChtPyO,ChtPyo,ChtpYO,ChtpYo,ChtpyO,Chtpyo,DEMO00,DEMO01,DEMO02,DEMO03,DEMO04,DEMO05,DEMO06,DEMO07,DEMO08,DEMO09,DEMO10,DEMO11,DEMO12,DEMO13,DEMO14,DEMO15,DEMO16,DEMO17,DEMO18,DEMO19,DHAXHP,DHAXHp,DHAXhP,DHAXhp,DHAxHP,DHAxHp,DHAxhP,DHAxhp,DHaXHP,DHaXHp,DHaXhP,DHaXhp,DHaxHP,DHaxHp,DHaxhP,DHaxhp,DeMo01,Demo00,Demo01,Demo02,Demo03,Demo04,Demo05,Demo06,Demo07,Demo08,Demo09,Demo10,Demo11,Demo12,Demo13,Demo14,Demo15,Demo16,Demo17,Demo18,Demo19,DhAXHP,DhAXHp,DhAXhP,DhAXhp,DhAxHP,DhAxHp,DhAxhP,DhAxhp,DhaXHP,DhaXHp,DhaXhP,DhaXhp,DhaxHP,DhaxHp,DhaxhP,Dhaxhp,F17C0A,F17C0a,F17c0A,F17c0a,NFAIPH,NFAIPh,NFAIpH,NFAIph,NFAiPH,NFAiPh,NFAipH,NFAiph,NFaIPH,NFaIPh,NFaIpH,NFaIph,NFaiPH,NFaiPh,NFaipH,NFaiph,NfAIPH,NfAIPh,NfAIpH,NfAIph,NfAiPH,NfAiPh,NfAipH,NfAiph,NfaIPH,NfaIPh,NfaIpH,NfaIph,NfaiPH,NfaiPh,NfaipH,Nfaiph,OOKMBJ,OOKMBj,OOKMbJ,OOKMbj,OOKmBJ,OOKmBj,OOKmbJ,OOKmbj,OOkMBJ,OOkMBj,OOkMbJ,OOkMbj,OOkmBJ,OOkmBj,OOkmbJ,OOkmbj,OoKMBJ,OoKMBj,OoKMbJ,OoKMbj,OoKmBJ,OoKmBj,OoKmbJ,OoKmbj,OokMBJ,OokMBj,OokMbJ,OokMbj,OokmBJ,OokmBj,OokmbJ,Ookmbj,PMGWAA,PMGWAa,PMGWaA,PMGWaa,PMGwAA,PMGwAa,PMGwaA,PMGwaa,PMgWAA,PMgWAa,PMgWaA,PMgWaa,PMgwAA,PMgwAa,PMgwaA,PMgwaa,PmGWAA,PmGWAa,PmGWaA,PmGWaa,PmGwAA,PmGwAa,PmGwaA,PmGwaa,PmgWAA,PmgWAa,PmgWaA,PmgWaa,PmgwAA,PmgwAa,PmgwaA,Pmgwaa,RVQMKA,RVQMKa,RVQMkA,RVQMka,RVQmKA,RVQmKa,RVQmkA,RVQmka,RVqMKA,RVqMKa,RVqMkA,RVqMka,RVqmKA,RVqmKa,RVqmkA,RVqmka,RvQMKA,RvQMKa,RvQMkA,RvQMka,RvQmKA,RvQmKa,RvQmkA,RvQmka,RvqMKA,RvqMKa,RvqMkA,RvqMka,RvqmKA,RvqmKa,RvqmkA,Rvqmka,SNNUAW,SNNUAw,SNNUaW,SNNUaw,SNNuAW,SNNuAw,SNNuaW,SNNuaw,SNnUAW,SNnUAw,SNnUaW,SNnUaw,SNnuAW,SNnuAw,SNnuaW,SNnuaw,SUCWQV,SUCWQv,SUCWqV,SUCWqv,SUCwQV,SUCwQv,SUCwqV,SUCwqv,SUcWQV,SUcWQv,SUcWqV,SUcWqv,SUcwQV,SUcwQv,SUcwqV,SUcwqv,SnNUAW,SnNUAw,SnNUaW,SnNUaw,SnNuAW,SnNuAw,SnNuaW,SnNuaw,SnnUAW,SnnUAw,SnnUaW,SnnUaw,SnnuAW,SnnuAw,SnnuaW,Snnuaw,SuCWQV,SuCWQv,SuCWqV,SuCWqv,SuCwQV,SuCwQv,SuCwqV,SuCwqv,SucWQV,SucWQv,SucWqV,SucWqv,SucwQV,SucwQv,SucwqV,Sucwqv,TCPBXC,TCPBXc,TCPBxC,TCPBxc,TCPbXC,TCPbXc,TCPbxC,TCPbxc,TCpBXC,TCpBXc,TCpBxC,TCpBxc,TCpbXC,TCpbXc,TCpbxC,TCpbxc,TEST00,TEST01,TEST02,TEST03,TEST04,TEST05,TEST06,TEST07,TEST08,TEST09,TEST10,TEST11,TEST12,TEST13,TEST14,TEST15,TEST16,TEST17,TEST18,TEST19,TcPBXC,TcPBXc,TcPBxC,TcPBxc,TcPbXC,TcPbXc,TcPbxC,TcPbxc,TcpBXC,TcpBXc,TcpBxC,TcpBxc,TcpbXC,TcpbXc,TcpbxC,Tcpbxc,TeSt01,Test00,Test01,Test02,Test03,Test04,Test05,Test06,Test07,Test08,Test09,Test10,Test11,Test12,Test13,Test14,Test15,Test16,Test17,Test18,Test19,USER00,USER01,USER02,USER03,USER04,USER05,USER06,USER07,USER08,USER09,USER10,USER11,USER12,USER13,USER14,USER15,USER16,USER17,USER18,USER19,User00,User01,User02,User03,User04,User05,User06,User07,User08,User09,User10,User11,User12,User13,User14,User15,User16,User17,User18,User19,XNKJUM,XNKJUm,XNKJuM,XNKJum,XNKjUM,XNKjUm,XNKjuM,XNKjum,XNkJUM,XNkJUm,XNkJuM,XNkJum,XNkjUM,XNkjUm,XNkjuM,XNkjum,XnKJUM,XnKJUm,XnKJuM,XnKJum,XnKjUM,XnKjUm,XnKjuM,XnKjum,XnkJUM,XnkJUm,XnkJuM,XnkJum,XnkjUM,XnkjUm,XnkjuM,Xnkjum,aBc123,abc123,cHTPYO,cHTPYo,cHTPyO,cHTPyo,cHTpYO,cHTpYo,cHTpyO,cHTpyo,cHtPYO,cHtPYo,cHtPyO,cHtPyo,cHtpYO,cHtpYo,cHtpyO,cHtpyo,chTPYO,chTPYo,chTPyO,chTPyo,chTpYO,chTpYo,chTpyO,chTpyo,chtPYO,chtPYo,chtPyO,chtPyo,chtpYO,chtpYo,chtpyO,chtpyo,dHAXHP,dHAXHp,dHAXhP,dHAXhp,dHAxHP,dHAxHp,dHAxhP,dHAxhp,dHaXHP,dHaXHp,dHaXhP,dHaXhp,dHaxHP,dHaxHp,dHaxhP,dHaxhp,demo01,dhAXHP,dhAXHp,dhAXhP,dhAXhp,dhAxHP,dhAxHp,dhAxhP,dhAxhp,dhaXHP,dhaXHp,dhaXhP,dhaXhp,dhaxHP,dhaxHp,dhaxhP,dhaxhp,f17C0A,f17C0a,f17c0A,f17c0a,nFAIPH,nFAIPh,nFAIpH,nFAIph,nFAiPH,nFAiPh,nFAipH,nFAiph,nFaIPH,nFaIPh,nFaIpH,nFaIph,nFaiPH,nFaiPh,nFaipH,nFaiph,nfAIPH,nfAIPh,nfAIpH,nfAIph,nfAiPH,nfAiPh,nfAipH,nfAiph,nfaIPH,nfaIPh,nfaIpH,nfaIph,nfaiPH,nfaiPh,nfaipH,nfaiph,oOKMBJ,oOKMBj,oOKMbJ,oOKMbj,oOKmBJ,oOKmBj,oOKmbJ,oOKmbj,oOkMBJ,oOkMBj,oOkMbJ,oOkMbj,oOkmBJ,oOkmBj,oOkmbJ,oOkmbj,ooKMBJ,ooKMBj,ooKMbJ,ooKMbj,ooKmBJ,ooKmBj,ooKmbJ,ooKmbj,ookMBJ,ookMBj,ookMbJ,ookMbj,ookmBJ,ookmBj,ookmbJ,ookmbj,pMGWAA,pMGWAa,pMGWaA,pMGWaa,pMGwAA,pMGwAa,pMGwaA,pMGwaa,pMgWAA,pMgWAa,pMgWaA,pMgWaa,pMgwAA,pMgwAa,pMgwaA,pMgwaa,pmGWAA,pmGWAa,pmGWaA,pmGWaa,pmGwAA,pmGwAa,pmGwaA,pmGwaa,pmgWAA,pmgWAa,pmgWaA,pmgWaa,pmgwAA,pmgwAa,pmgwaA,pmgwaa,rVQMKA,rVQMKa,rVQMkA,rVQMka,rVQmKA,rVQmKa,rVQmkA,rVQmka,rVqMKA,rVqMKa,rVqMkA,rVqMka,rVqmKA,rVqmKa,rVqmkA,rVqmka,rvQMKA,rvQMKa,rvQMkA,rvQMka,rvQmKA,rvQmKa,rvQmkA,rvQmka,rvqMKA,rvqMKa,rvqMkA,rvqMka,rvqmKA,rvqmKa,rvqmkA,rvqmka,sNNUAW,sNNUAw,sNNUaW,sNNUaw,sNNuAW,sNNuAw,sNNuaW,sNNuaw,sNnUAW,sNnUAw,sNnUaW,sNnUaw,sNnuAW,sNnuAw,sNnuaW,sNnuaw,sUCWQV,sUCWQv,sUCWqV,sUCWqv,sUCwQV,sUCwQv,sUCwqV,sUCwqv,sUcWQV,sUcWQv,sUcWqV,sUcWqv,sUcwQV,sUcwQv,sUcwqV,sUcwqv,snNUAW,snNUAw,snNUaW,snNUaw,snNuAW,snNuAw,snNuaW,snNuaw,snnUAW,snnUAw,snnUaW,snnUaw,snnuAW,snnuAw,snnuaW,snnuaw,suCWQV,suCWQv,suCWqV,suCWqv,suCwQV,suCwQv,suCwqV,suCwqv,sucWQV,sucWQv,sucWqV,sucWqv,sucwQV,sucwQv,sucwqV,sucwqv,tCPBXC,tCPBXc,tCPBxC,tCPBxc,tCPbXC,tCPbXc,tCPbxC,tCPbxc,tCpBXC,tCpBXc,tCpBxC,tCpBxc,tCpbXC,tCpbXc,tCpbxC,tCpbxc,tcPBXC,tcPBXc,tcPBxC,tcPBxc,tcPbXC,tcPbXc,tcPbxC,tcPbxc,tcpBXC,tcpBXc,tcpBxC,tcpBxc,tcpbXC,tcpbXc,tcpbxC,tcpbxc,test01,xNKJUM,xNKJUm,xNKJuM,xNKJum,xNKjUM,xNKjUm,xNKjuM,xNKjum,xNkJUM,xNkJUm,xNkJuM,xNkJum,xNkjUM,xNkjUm,xNkjuM,xNkjum,xnKJUM,xnKJUm,xnKJuM,xnKJum,xnKjUM,xnKjUm,xnKjuM,xnKjum,xnkJUM,xnkJUm,xnkJuM,xnkJum,xnkjUM,xnkjUm,xnkjuM,xnkjum</Str>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+      <Str sr="arg6" ve="3"/>
+    </Action>
+    <Action sr="act2" ve="7">
+      <code>43</code>
+      <Int sr="arg0" val="0"/>
+      <Int sr="arg1" val="1"/>
+      <Int sr="arg2" val="832"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Str sr="arg5" ve="3">%KeyIndex</Str>
+      <Int sr="arg6" val="1"/>
+    </Action>
+    <Action sr="act3" ve="7">
+      <code>590</code>
+      <Str sr="arg0" ve="3">%CurrentKey</Str>
+      <Str sr="arg1" ve="3">%AllKeys</Str>
+      <Str sr="arg2" ve="3">,</Str>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Str sr="arg5" ve="3">%KeyIndex</Str>
+      <Int sr="arg6" val="0"/>
+      <Int sr="arg7" val="0"/>
+    </Action>
+    <Action sr="act4" ve="7">
+      <code>30</code>
+      <Int sr="arg0" val="2000"/>
+      <Int sr="arg1" val="0"/>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+    </Action>
+    <Action sr="act5" ve="7">
+      <code>21</code>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <com.twofortyfouram.locale.intent.extra.BLURB>SE</com.twofortyfouram.locale.intent.extra.BLURB>
+          <com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+          <net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+          <net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+          <net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>app_name app_package</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+          <net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+          <net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+          <net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+        </Vals>
+      </Bundle>
+      <Str sr="arg1" ve="3">com.snake</Str>
+      <Str sr="arg2" ve="3"/>
+      <Str sr="arg3" ve="3"/>
+      <Str sr="arg4" ve="3"/>
+      <Int sr="arg5" val="0"/>
+    </Action>
+    <Action sr="act6" ve="7">
+      <code>30</code>
+      <Int sr="arg0" val="2000"/>
+      <Int sr="arg1" val="0"/>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+    </Action>
+    <Action sr="act7" ve="7">
+      <code>906</code>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <com.joaomgcd.autoinput.intent.extra.ACTION>Click</com.joaomgcd.autoinput.intent.extra.ACTION>
+          <com.joaomgcd.autoinput.intent.extra.ACTION-type>java.lang.String</com.joaomgcd.autoinput.intent.extra.ACTION-type>
+          <com.joaomgcd.autoinput.intent.extra.X>540</com.joaomgcd.autoinput.intent.extra.X>
+          <com.joaomgcd.autoinput.intent.extra.X-type>java.lang.String</com.joaomgcd.autoinput.intent.extra.X-type>
+          <com.joaomgcd.autoinput.intent.extra.Y>943</com.joaomgcd.autoinput.intent.extra.Y>
+          <com.joaomgcd.autoinput.intent.extra.Y-type>java.lang.String</com.joaomgcd.autoinput.intent.extra.Y-type>
+          <com.twofortyfouram.locale.intent.extra.BLURB>Click (540,943)</com.twofortyfouram.locale.intent.extra.BLURB>
+          <com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+        </Vals>
+      </Bundle>
+      <Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+      <Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigAction</Str>
+      <Int sr="arg3" val="1"/>
+    </Action>
+    <Action sr="act8" ve="7">
+      <code>30</code>
+      <Int sr="arg0" val="2000"/>
+      <Int sr="arg1" val="0"/>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+    </Action>
+    <Action sr="act9" ve="7">
+      <code>906</code>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <com.joaomgcd.autoinput.intent.extra.ACTION>Click</com.joaomgcd.autoinput.intent.extra.ACTION>
+          <com.joaomgcd.autoinput.intent.extra.ACTION-type>java.lang.String</com.joaomgcd.autoinput.intent.extra.ACTION-type>
+          <com.joaomgcd.autoinput.intent.extra.X>540</com.joaomgcd.autoinput.intent.extra.X>
+          <com.joaomgcd.autoinput.intent.extra.X-type>java.lang.String</com.joaomgcd.autoinput.intent.extra.X-type>
+          <com.joaomgcd.autoinput.intent.extra.Y>541</com.joaomgcd.autoinput.intent.extra.Y>
+          <com.joaomgcd.autoinput.intent.extra.Y-type>java.lang.String</com.joaomgcd.autoinput.intent.extra.Y-type>
+          <com.twofortyfouram.locale.intent.extra.BLURB>Click (540,541)</com.twofortyfouram.locale.intent.extra.BLURB>
+          <com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+        </Vals>
+      </Bundle>
+      <Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+      <Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigAction</Str>
+      <Int sr="arg3" val="1"/>
+    </Action>
+    <Action sr="act10" ve="7">
+      <code>30</code>
+      <Int sr="arg0" val="1000"/>
+      <Int sr="arg1" val="0"/>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+    </Action>
+    <Action sr="act11" ve="7">
+      <code>906</code>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <com.joaomgcd.autoinput.intent.extra.ACTION>Write</com.joaomgcd.autoinput.intent.extra.ACTION>
+          <com.joaomgcd.autoinput.intent.extra.ACTION-type>java.lang.String</com.joaomgcd.autoinput.intent.extra.ACTION-type>
+          <com.joaomgcd.autoinput.intent.extra.TEXT>%CurrentKey</com.joaomgcd.autoinput.intent.extra.TEXT>
+          <com.joaomgcd.autoinput.intent.extra.TEXT-type>java.lang.String</com.joaomgcd.autoinput.intent.extra.TEXT-type>
+          <com.twofortyfouram.locale.intent.extra.BLURB>Write %CurrentKey</com.twofortyfouram.locale.intent.extra.BLURB>
+          <com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+        </Vals>
+      </Bundle>
+      <Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+      <Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigAction</Str>
+      <Int sr="arg3" val="1"/>
+    </Action>
+    <Action sr="act12" ve="7">
+      <code>30</code>
+      <Int sr="arg0" val="1000"/>
+      <Int sr="arg1" val="0"/>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+    </Action>
+    <Action sr="act13" ve="7">
+      <code>906</code>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <com.joaomgcd.autoinput.intent.extra.ACTION>Click</com.joaomgcd.autoinput.intent.extra.ACTION>
+          <com.joaomgcd.autoinput.intent.extra.ACTION-type>java.lang.String</com.joaomgcd.autoinput.intent.extra.ACTION-type>
+          <com.joaomgcd.autoinput.intent.extra.X>834</com.joaomgcd.autoinput.intent.extra.X>
+          <com.joaomgcd.autoinput.intent.extra.X-type>java.lang.String</com.joaomgcd.autoinput.intent.extra.X-type>
+          <com.joaomgcd.autoinput.intent.extra.Y>657</com.joaomgcd.autoinput.intent.extra.Y>
+          <com.joaomgcd.autoinput.intent.extra.Y-type>java.lang.String</com.joaomgcd.autoinput.intent.extra.Y-type>
+          <com.twofortyfouram.locale.intent.extra.BLURB>Click (834,657)</com.twofortyfouram.locale.intent.extra.BLURB>
+          <com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+        </Vals>
+      </Bundle>
+      <Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+      <Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigAction</Str>
+      <Int sr="arg3" val="1"/>
+    </Action>
+    <Action sr="act14" ve="7">
+      <code>30</code>
+      <Int sr="arg0" val="5000"/>
+      <Int sr="arg1" val="0"/>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+    </Action>
+    <Action sr="act15" ve="7">
+      <code>118</code>
+      <Str sr="arg0" ve="3">keytest_%KeyIndex_%CurrentKey.png</Str>
+      <Int sr="arg1" val="100"/>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="0"/>
+      <Int sr="arg6" val="0"/>
+    </Action>
+    <Action sr="act16" ve="7">
+      <code>906</code>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <com.joaomgcd.autoinput.intent.extra.ACTION>Click</com.joaomgcd.autoinput.intent.extra.ACTION>
+          <com.joaomgcd.autoinput.intent.extra.ACTION-type>java.lang.String</com.joaomgcd.autoinput.intent.extra.ACTION-type>
+          <com.joaomgcd.autoinput.intent.extra.X>474</com.joaomgcd.autoinput.intent.extra.X>
+          <com.joaomgcd.autoinput.intent.extra.X-type>java.lang.String</com.joaomgcd.autoinput.intent.extra.X-type>
+          <com.joaomgcd.autoinput.intent.extra.Y>608</com.joaomgcd.autoinput.intent.extra.Y>
+          <com.joaomgcd.autoinput.intent.extra.Y-type>java.lang.String</com.joaomgcd.autoinput.intent.extra.Y-type>
+          <com.twofortyfouram.locale.intent.extra.BLURB>Click (474,608)</com.twofortyfouram.locale.intent.extra.BLURB>
+          <com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+        </Vals>
+      </Bundle>
+      <Str sr="arg1" ve="3">com.joaomgcd.autoinput</Str>
+      <Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigAction</Str>
+      <Int sr="arg3" val="1"/>
+    </Action>
+    <Action sr="act17" ve="7">
+      <code>30</code>
+      <Int sr="arg0" val="1000"/>
+      <Int sr="arg1" val="0"/>
+      <Int sr="arg2" val="0"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+    </Action>
+    <Action sr="act18" ve="7">
+      <code>22</code>
+      <Bundle sr="arg0">
+        <Vals sr="val">
+          <com.twofortyfouram.locale.intent.extra.BLURB>SE</com.twofortyfouram.locale.intent.extra.BLURB>
+          <com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+          <net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>true</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED>
+          <net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>java.lang.Boolean</net.dinglisch.android.tasker.EXTRA_NSR_DEPRECATED-type>
+          <net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>app_name</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+          <net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+          <net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+          <net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+        </Vals>
+      </Bundle>
+      <Str sr="arg1" ve="3">com.snake</Str>
+      <Int sr="arg2" val="0"/>
+    </Action>
+    <Action sr="act19" ve="7">
+      <code>549</code>
+      <Str sr="arg0" ve="3">%KeyIndex</Str>
+      <Int sr="arg1" val="1"/>
+      <Int sr="arg2" val="0"/>
+      <Str sr="arg3" ve="3"/>
+    </Action>
+    <Action sr="act20" ve="7">
+      <code>37</code>
+      <ConditionList sr="if">
+        <Condition sr="c0" ve="3">
+          <lhs>%KeyIndex</lhs>
+          <op>13</op>
+          <rhs>50</rhs>
+        </Condition>
+      </ConditionList>
+    </Action>
+    <Action sr="act21" ve="7">
+      <code>523</code>
+      <Str sr="arg0" ve="3">Testing Progress</Str>
+      <Str sr="arg1" ve="3">Tested %KeyIndex/832 keys</Str>
+      <Img sr="arg2" ve="2"/>
+      <Int sr="arg3" val="0"/>
+      <Int sr="arg4" val="0"/>
+      <Int sr="arg5" val="3"/>
+      <Str sr="arg6" ve="3"/>
+      <Str sr="arg7" ve="3"/>
+      <Str sr="arg8" ve="3"/>
+      <Int sr="arg9" val="0"/>
+    </Action>
+    <Action sr="act22" ve="7">
+      <code>38</code>
+    </Action>
+    <Action sr="act23" ve="7">
+      <code>44</code>
+    </Action>
+  </Task>
+</TaskerData>

@@ -1,0 +1,287 @@
+================================================================================
+TASKER + AUTOINPUT - FULLY AUTOMATIC TESTING
+================================================================================
+
+✅ Apps installed: Tasker + AutoInput
+✅ File ready: SE_Key_Tester_Tasker.prj.xml
+
+================================================================================
+STEP 1: ENABLE AUTOINPUT ACCESSIBILITY (CRITICAL!)
+================================================================================
+
+1. Open **AutoInput** app
+2. Tap **"Enable Accessibility Service"**
+3. You'll be taken to Accessibility settings
+4. Find **"AutoInput"** in the list
+5. Toggle it **ON**
+6. Tap **"Allow"** on the popup
+7. Go back to AutoInput app
+8. You should see **"Service Enabled"** ✅
+
+================================================================================
+STEP 2: DOWNLOAD THE TASKER PROJECT FILE
+================================================================================
+
+On your phone:
+1. Go to: https://github.com/samdavistwo-png/android-app
+2. Find: **SE_Key_Tester_Tasker.prj.xml**
+3. Tap on the file
+4. Tap **"Download"** or **"Raw"**
+5. Save to **Downloads** folder
+
+================================================================================
+STEP 3: IMPORT THE PROJECT INTO TASKER
+================================================================================
+
+1. Open **Tasker** app
+2. Tap the **Home** icon (bottom left)
+3. Tap the **3-dot menu** (top right) → **Import**
+4. Navigate to **Downloads** folder
+5. Select: **SE_Key_Tester_Tasker.prj.xml**
+6. Wait for import (may take 10-20 seconds)
+7. You should see: **"SE Auto Key Test"** profile
+
+================================================================================
+STEP 4: ENABLE THE PROFILE
+================================================================================
+
+1. In Tasker, find the profile: **"SE Auto Key Test"**
+2. Make sure the toggle on the right is **ON** (green)
+3. If it's off, tap it to enable
+
+================================================================================
+STEP 5: GRANT PERMISSIONS
+================================================================================
+
+When you first run it, you'll need to grant permissions:
+
+1. Tap the profile name to test it
+2. Grant **Accessibility** permission (if asked)
+3. Grant **Screenshot** permission (if asked)
+4. Grant **Display over other apps** (if asked)
+
+================================================================================
+STEP 6: TEST THE AUTOMATION (IMPORTANT!)
+================================================================================
+
+Before testing all 832 keys, test with one key first:
+
+1. Open Tasker
+2. Tap on the profile name: **"SE Auto Key Test"**
+3. Tap **"Play"** button (▶) to run it once manually
+4. Watch it:
+   - Open SE app ✓
+   - Tap Entry Key ✓
+   - Tap field ✓
+   - Type key ✓
+   - Tap Activate ✓
+   - Wait 5 seconds ✓
+   - Screenshot ✓
+   - Tap Close ✓
+   - Close app ✓
+
+If it works, you're ready!
+
+================================================================================
+STEP 7: RUN FULL AUTOMATIC TESTING
+================================================================================
+
+**To start testing all 832 keys:**
+
+1. Make sure phone is:
+   - ✅ Fully charged (or plugged in)
+   - ✅ Screen timeout set to "Never" or 30 minutes
+   - ✅ Do Not Disturb mode enabled
+   - ✅ SE 2.2.6 app installed
+
+2. Open Tasker
+
+3. Tap the **Play button** (▶) on "SE Auto Key Test" profile
+
+4. **Leave phone alone for 3-4 hours!**
+
+The automation will:
+- Test key 1/832
+- Test key 2/832
+- Test key 3/832
+- ... (all 832 keys automatically)
+- Show progress notification every 50 keys
+- Take screenshots for each key
+
+================================================================================
+WHAT HAPPENS DURING TESTING
+================================================================================
+
+**You'll see:**
+- SE app opening and closing repeatedly
+- Keys being typed automatically
+- Progress notifications: "Tested 50/832 keys"
+- Screenshots saved to: Pictures/Tasker/
+
+**Time per key:** ~15 seconds
+**Total time:** ~3.5 hours for all 832 keys
+
+================================================================================
+STEP 8: CHECK RESULTS
+================================================================================
+
+After testing completes:
+
+1. Open **Gallery** or **Files** app
+2. Go to **Pictures/Tasker/** folder
+3. Look through screenshots for:
+   - ✅ Green checkmark
+   - ✅ "Key was activated successfully"
+   - ✅ Success message
+
+4. When you find a working key:
+   - Note the key from the filename
+   - Use it in the SE app!
+
+================================================================================
+COORDINATES (OPPO K13 5G - 1080 x 2400)
+================================================================================
+
+The Tasker project is pre-configured with these coordinates:
+- Entry Key button: (540, 943)
+- Key input field: (540, 541)
+- Activate button: (834, 657)
+- Close button: (474, 608)
+
+If buttons are in different positions:
+1. Open Tasker
+2. Edit the task
+3. Change coordinate values
+4. Save
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+**Automation doesn't start?**
+→ Make sure AutoInput Accessibility is enabled
+→ Open AutoInput app and check "Service Enabled" status
+
+**Taps are missing buttons?**
+→ Coordinates may be wrong for your screen
+→ Edit task and adjust ±10 pixels
+
+**Keys not being typed?**
+→ AutoInput needs permission to type
+→ Check AutoInput settings
+
+**Screen turns off during testing?**
+→ Change screen timeout to "Never"
+→ Or plug in charger
+
+**App crashes during testing?**
+→ Check if SE app is up to date
+→ Clear app cache and try again
+
+**Progress seems stuck?**
+→ Tasker is still running
+→ Check Tasker → Active tasks
+→ Wait for it to complete
+
+================================================================================
+STOPPING THE AUTOMATION
+================================================================================
+
+If you need to stop before finishing:
+
+1. Open Tasker
+2. Tap **Active** tab (bottom)
+3. Find "Test All 832 Keys"
+4. Tap it → **Stop**
+
+To resume later:
+- Just run the profile again
+- It will start from key #1 again
+- Previous screenshots are saved
+
+================================================================================
+WHAT'S IN THE TASKER PROJECT
+================================================================================
+
+**Profile:** SE Auto Key Test
+**Trigger:** Can be run manually (tap Play button)
+**Task:** Test All 832 Keys
+
+**Actions (19 steps):**
+1. Initialize KeyIndex = 1
+2. Store all 832 keys in %AllKeys variable
+3. Loop 832 times:
+   - Extract current key from list
+   - Wait 2 seconds
+   - Launch SE app
+   - Wait 2 seconds
+   - AutoInput: Click Entry Key (540,943)
+   - Wait 2 seconds
+   - AutoInput: Click Key Field (540,541)
+   - Wait 1 second
+   - AutoInput: Write %CurrentKey
+   - Wait 1 second
+   - AutoInput: Click Activate (834,657)
+   - Wait 5 seconds
+   - Take screenshot
+   - AutoInput: Click Close (474,608)
+   - Wait 1 second
+   - Kill SE app
+   - Increment KeyIndex
+   - Progress notification (every 50 keys)
+   - Loop back
+
+================================================================================
+ALL 832 KEYS EMBEDDED
+================================================================================
+
+The Tasker project contains all 832 keys embedded in the %AllKeys variable:
+
+000000,017C0A,017C0a,017c0A,017c0a,0XUEKN,0XUEKn,...,xnkjum
+
+Each key is extracted one by one using string splitting.
+
+================================================================================
+ESTIMATED COSTS
+================================================================================
+
+✅ Tasker: $3.49 (one-time purchase)
+✅ AutoInput: $2.99 (7-day free trial, then one-time purchase)
+✅ Total: $6.48 (or FREE during 7-day trial!)
+
+vs.
+
+❌ Manual copying: 5-6 hours of tedious work
+❌ Typing manually: 8-10 hours
+
+================================================================================
+SUMMARY
+================================================================================
+
+✅ Install Tasker + AutoInput
+✅ Enable AutoInput Accessibility
+✅ Import SE_Key_Tester_Tasker.prj.xml
+✅ Tap Play button
+✅ Wait 3-4 hours
+✅ Check screenshots for working key
+✅ Done!
+
+================================================================================
+FILES
+================================================================================
+
+All files at: https://github.com/samdavistwo-png/android-app
+
+✅ SE_Key_Tester_Tasker.prj.xml (Tasker project - THIS FILE!)
+✅ TASKER_IMPORT_GUIDE.txt (this guide)
+✅ ALL_832_KEYS_FULL_LIST.txt (key reference)
+
+================================================================================
+Last Updated: June 11, 2026
+Device: OPPO K13 5G (1080 x 2400)
+Total Keys: 832 (embedded in Tasker project)
+Method: Tasker + AutoInput (fully automatic)
+Estimated Time: 3-4 hours (unattended)
+================================================================================
+
+Ready? Follow STEP 1 to enable AutoInput Accessibility Service!
