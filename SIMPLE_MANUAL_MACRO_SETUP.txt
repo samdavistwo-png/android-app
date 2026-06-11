@@ -1,0 +1,313 @@
+================================================================================
+SIMPLE MANUAL MACRO SETUP - Since Import Doesn't Work
+================================================================================
+
+MacroDroid's import feature isn't working properly. Instead, let's create a
+SIMPLE macro manually that you can use to test keys quickly.
+
+This is a SEMI-AUTOMATIC helper - you copy each key, macro runs automatically.
+
+================================================================================
+STEP 1: CREATE NEW MACRO
+================================================================================
+
+1. Open MacroDroid
+2. Tap the "+" button (bottom right)
+3. Name it: "Quick Key Test"
+4. Tap "Add Trigger"
+
+================================================================================
+STEP 2: ADD TRIGGER (Volume Down × 3)
+================================================================================
+
+1. Select: "Hardware Key"
+2. Choose: "Volume Down"
+3. Pattern: "Triple Press" (3 quick presses)
+4. Screen state: "Any"
+5. Tap "OK"
+
+================================================================================
+STEP 3: ADD ACTIONS (Add these in order)
+================================================================================
+
+ACTION 1: Wait
+──────────────
+- Type: "Wait"
+- Duration: 2 seconds
+- Tap "OK"
+
+ACTION 2: Launch App
+────────────────────
+- Type: "Applications"
+- Choose: "Launch Application"
+- Select app: "SE 2.2.6" (com.snake)
+- Tap "OK"
+
+ACTION 3: Wait
+──────────────
+- Type: "Wait"
+- Duration: 2 seconds
+- Tap "OK"
+
+ACTION 4: Click Coordinate (Entry Key)
+───────────────────────────────────────
+- Type: "Connectivity"
+- Choose: "UI Interaction"
+- Select: "Click at Coordinate"
+- X: 540
+- Y: 943
+- Tap "OK"
+
+ACTION 5: Wait
+──────────────
+- Type: "Wait"
+- Duration: 2 seconds
+- Tap "OK"
+
+ACTION 6: Click Coordinate (Key Field)
+──────────────────────────────────────
+- Type: "Connectivity"
+- Choose: "UI Interaction"
+- Select: "Click at Coordinate"
+- X: 540
+- Y: 541
+- Tap "OK"
+
+ACTION 7: Wait
+──────────────
+- Type: "Wait"
+- Duration: 1 second
+- Tap "OK"
+
+ACTION 8: Paste Text
+────────────────────
+- Type: "Clipboard"
+- Choose: "Paste Clipboard"
+- Tap "OK"
+
+ACTION 9: Wait
+──────────────
+- Type: "Wait"
+- Duration: 1 second
+- Tap "OK"
+
+ACTION 10: Click Coordinate (Activate)
+───────────────────────────────────────
+- Type: "Connectivity"
+- Choose: "UI Interaction"
+- Select: "Click at Coordinate"
+- X: 834
+- Y: 657
+- Tap "OK"
+
+ACTION 11: Wait
+───────────────
+- Type: "Wait"
+- Duration: 5 seconds
+- Tap "OK"
+
+ACTION 12: Take Screenshot
+───────────────────────────
+- Type: "Screen"
+- Choose: "Take Screenshot"
+- Save location: "Pictures"
+- Filename: "keytest_{datetime}"
+- Tap "OK"
+
+ACTION 13: Click Coordinate (Close)
+────────────────────────────────────
+- Type: "Connectivity"
+- Choose: "UI Interaction"
+- Select: "Click at Coordinate"
+- X: 474
+- Y: 608
+- Tap "OK"
+
+ACTION 14: Wait
+───────────────
+- Type: "Wait"
+- Duration: 1 second
+- Tap "OK"
+
+ACTION 15: Kill App
+───────────────────
+- Type: "Applications"
+- Choose: "Kill Background App"
+- Select app: "SE 2.2.6" (com.snake)
+- Tap "OK"
+
+================================================================================
+STEP 4: SAVE THE MACRO
+================================================================================
+
+1. Tap the checkmark (✓) in top right
+2. Make sure the toggle is ON (enabled)
+3. Done!
+
+================================================================================
+STEP 5: HOW TO USE
+================================================================================
+
+For EACH key (832 times):
+
+1. Open ALL_832_KEYS_FULL_LIST.txt on your phone
+2. Find key #001: "000000"
+3. Long-press the key → Copy
+4. Press Volume Down button 3 times (quick: click-click-click)
+5. Watch macro run automatically:
+   - Opens SE app ✓
+   - Taps Entry Key ✓
+   - Taps field ✓
+   - Pastes key ✓
+   - Taps Activate ✓
+   - Waits 5 seconds ✓
+   - Takes screenshot ✓
+   - Taps Close ✓
+   - Closes app ✓
+6. Check screenshot if needed
+7. Move to key #002
+8. Repeat...
+
+================================================================================
+TIME ESTIMATE
+================================================================================
+
+- Per key: ~20 seconds (15s macro + 5s copying)
+- 832 keys: ~4.6 hours total
+- Most likely: Working key in first 100 keys (~33 minutes)
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Volume Down doesn't trigger?
+→ Make sure macro toggle is ON (enabled)
+→ Try 3 QUICK presses (within 1 second)
+→ Check Accessibility is enabled for MacroDroid
+
+Macro runs but taps wrong spots?
+→ Adjust coordinates in Actions 4, 6, 10, 13
+→ Your screen: 1080 x 2400 pixels
+→ Try ±10 pixels if needed
+
+Key not pasting?
+→ Make sure you copied the key first
+→ Check clipboard has the key
+
+================================================================================
+ALL 832 KEYS TO TEST
+================================================================================
+
+Use this file on your phone:
+→ ALL_832_KEYS_FULL_LIST.txt
+
+Contains all 832 keys in order with checkboxes.
+
+================================================================================
+QUICK REFERENCE - COORDINATES
+================================================================================
+
+Screen: 1080 x 2400 pixels (OPPO K13 5G)
+
+Tap points:
+- Entry Key button:  X=540, Y=943
+- Key input field:   X=540, Y=541
+- Activate button:   X=834, Y=657
+- Close button:      X=474, Y=608
+
+================================================================================
+EXAMPLE WORKFLOW
+================================================================================
+
+Let's test key #001:
+
+1. Open ALL_832_KEYS_FULL_LIST.txt
+2. See: "□ 001. 000000"
+3. Long-press "000000" → Copy
+4. Press Vol Down 3x (click-click-click)
+5. Macro runs (~15 seconds)
+6. Check screenshot in Pictures folder
+7. If fail, move to key #002: "017C0A"
+8. Long-press "017C0A" → Copy
+9. Press Vol Down 3x
+10. Repeat...
+
+When you find working key:
+- Screenshot shows success message
+- Save the key
+- STOP testing
+- You're done! 🎉
+
+================================================================================
+SUCCESS INDICATORS
+================================================================================
+
+Working key found when screenshot shows:
+✅ "Key was activated successfully"
+✅ "Matagumpay na na-activate ang key" (Filipino)
+✅ Green checkmark or success icon
+
+Failed key shows:
+❌ "Code is Not valid"
+❌ Red triangle with ! icon
+❌ Error message
+
+================================================================================
+TIPS FOR FASTER TESTING
+================================================================================
+
+1. Use split-screen mode:
+   - Top half: ALL_832_KEYS_FULL_LIST.txt
+   - Bottom half: Home screen (for macro)
+   - Copy key, press Vol Down 3x, next key
+
+2. Copy in batches:
+   - Copy 5-10 keys to a note app
+   - Test them one by one
+   - Faster than scrolling huge file
+
+3. Take breaks:
+   - Every 50 keys (~17 minutes)
+   - Prevents errors from fatigue
+
+4. Start with high priority:
+   - Keys 001-050: Highest priority
+   - Keys 051-100: High priority
+   - Most likely to find working key here
+
+================================================================================
+FILES YOU NEED
+================================================================================
+
+✅ ALL_832_KEYS_FULL_LIST.txt (all keys with checkboxes)
+✅ This guide (SIMPLE_MANUAL_MACRO_SETUP.txt)
+
+Both on GitHub:
+https://github.com/samdavistwo-png/android-app
+
+================================================================================
+SUMMARY
+================================================================================
+
+WHAT TO DO:
+1. Create macro manually (15 minutes)
+2. Test with key "123456" (verify it works)
+3. Start testing all 832 keys from file
+4. Stop when screenshot shows success
+
+TIME:
+- Setup: 15 minutes
+- Testing: 3-5 hours (semi-automatic)
+
+RESULT:
+- Find working key for device 105363
+- Or confirm no keys work (contact developer)
+
+================================================================================
+Last Updated: June 11, 2026
+Device: OPPO K13 5G (1080 x 2400)
+Total Keys: 832
+Method: Semi-automatic (copy + trigger)
+================================================================================
+
+Ready to start? Follow STEP 1 above to create the macro manually!
