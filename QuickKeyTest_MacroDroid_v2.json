@@ -1,0 +1,103 @@
+{
+  "macros": [
+    {
+      "m_name": "Quick Key Test v2",
+      "m_description": "Auto-tests SE 2.2.6 keys with Close button handling. Copy a key, then press Volume Down 3 times quickly.",
+      "m_category": "SE Key Testing",
+      "m_enabled": true,
+      "m_triggerList": [
+        {
+          "t_volumeButton": 1,
+          "t_volumeButtonPresses": 3
+        }
+      ],
+      "m_actionList": [
+        {
+          "a_type": "WAIT",
+          "a_wait_duration": 2,
+          "a_comment": "Wait for stability"
+        },
+        {
+          "a_type": "LAUNCH_APP",
+          "a_package": "com.snake",
+          "a_comment": "Launch SE 2.2.6 app"
+        },
+        {
+          "a_type": "WAIT",
+          "a_wait_duration": 2,
+          "a_comment": "Wait for app to load"
+        },
+        {
+          "a_type": "UI_CLICK",
+          "a_x": 540,
+          "a_y": 943,
+          "a_comment": "Tap Entry Key button"
+        },
+        {
+          "a_type": "WAIT",
+          "a_wait_duration": 2,
+          "a_comment": "Wait for screen transition"
+        },
+        {
+          "a_type": "UI_CLICK",
+          "a_x": 540,
+          "a_y": 541,
+          "a_comment": "Tap key input field"
+        },
+        {
+          "a_type": "WAIT",
+          "a_wait_duration": 1,
+          "a_comment": "Wait for keyboard"
+        },
+        {
+          "a_type": "PASTE_CLIPBOARD",
+          "a_comment": "Paste the copied key"
+        },
+        {
+          "a_type": "WAIT",
+          "a_wait_duration": 1,
+          "a_comment": "Wait for paste"
+        },
+        {
+          "a_type": "UI_CLICK",
+          "a_x": 834,
+          "a_y": 657,
+          "a_comment": "Tap Activate button"
+        },
+        {
+          "a_type": "WAIT",
+          "a_wait_duration": 5,
+          "a_comment": "Wait for validation (loading + result)"
+        },
+        {
+          "a_type": "SCREENSHOT",
+          "a_save_location": "Pictures",
+          "a_filename": "keytest",
+          "a_comment": "Screenshot the result dialog"
+        },
+        {
+          "a_type": "WAIT",
+          "a_wait_duration": 1,
+          "a_comment": "Wait before closing dialog"
+        },
+        {
+          "a_type": "UI_CLICK",
+          "a_x": 474,
+          "a_y": 608,
+          "a_comment": "Tap Close button on result dialog"
+        },
+        {
+          "a_type": "WAIT",
+          "a_wait_duration": 1,
+          "a_comment": "Wait for dialog to close"
+        },
+        {
+          "a_type": "KILL_APP",
+          "a_package": "com.snake",
+          "a_comment": "Force close SE app"
+        }
+      ],
+      "m_constraintList": []
+    }
+  ]
+}

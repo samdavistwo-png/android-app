@@ -1,0 +1,257 @@
+================================================================================
+UPDATED MACRODROID MACRO - WITH CLOSE BUTTON SUPPORT
+================================================================================
+
+✅ NEW VERSION AVAILABLE: QuickKeyTest_MacroDroid_v2.json
+
+This version handles the validation dialog properly:
+- Waits for validation to complete
+- Takes screenshot of result
+- Taps "Close" button automatically
+- Ready for next key
+
+================================================================================
+WHAT'S NEW IN V2
+================================================================================
+
+ADDED:
+✅ Longer wait time after Activate (5 seconds instead of 3)
+✅ Screenshot taken AFTER validation completes
+✅ Automatic tap on "Close" button (coordinates: 474, 608)
+✅ Extra wait for dialog to close
+
+FLOW NOW:
+1. Opens SE app
+2. Taps Entry Key
+3. Taps key field
+4. Pastes your key
+5. Taps Activate
+6. ⏱️ Waits 5 seconds for validation
+7. 📸 Takes screenshot of result dialog
+8. ❌ Taps Close button
+9. ⏸️ Waits for dialog to close
+10. 🔴 Closes app
+
+Total time per key: ~15 seconds
+
+================================================================================
+HOW TO IMPORT V2
+================================================================================
+
+STEP 1: Download the File
+──────────────────────────
+
+On your phone:
+1. Go to: https://github.com/samdavistwo-png/android-app
+2. Find: QuickKeyTest_MacroDroid_v2.json
+3. Tap → Download/Raw → Save to Downloads
+
+STEP 2: Import into MacroDroid
+───────────────────────────────
+
+1. Open MacroDroid
+2. Tap menu (☰) → Settings
+3. Tap "Backup & Restore"
+4. Tap "Restore Macros"
+5. Navigate to Downloads
+6. Select: QuickKeyTest_MacroDroid_v2.json
+7. Tap "Import"
+
+STEP 3: Enable Accessibility (if not already)
+──────────────────────────────────────────────
+
+1. Tap "Enable Accessibility Service"
+2. Find MacroDroid → Toggle ON
+3. Tap "Allow"
+
+================================================================================
+TEST THE NEW VERSION
+================================================================================
+
+1. Delete old macro (if you imported v1)
+   - Long-press "Quick Key Test" in MacroDroid
+   - Tap "Delete"
+
+2. Copy test key: 123456
+
+3. Press Volume Down 3 times
+
+4. Watch the new flow:
+   ✓ Opens app
+   ✓ Taps Entry Key
+   ✓ Pastes "123456"
+   ✓ Taps Activate
+   ✓ Waits 5 seconds (you'll see validation dialog)
+   ✓ Takes screenshot
+   ✓ Taps Close button (dialog disappears)
+   ✓ Closes app
+
+5. Check screenshot in Pictures folder
+   - Should show "Code is Not valid" dialog
+   - This is expected for test key "123456"
+
+================================================================================
+COORDINATES UPDATED
+================================================================================
+
+Screen: 1080 x 2400 pixels (OPPO K13 5G)
+
+All tap points:
+- Entry Key button:    X=540, Y=943
+- Key input field:     X=540, Y=541
+- Activate button:     X=834, Y=657
+- Close button (NEW):  X=474, Y=608  ⭐
+
+================================================================================
+TIMING EXPLAINED
+================================================================================
+
+Why 5 seconds wait after Activate?
+
+From your screenshot, the validation process:
+1. Click Activate → Loading starts
+2. ~2-3 seconds → Backend validates
+3. Dialog appears with result
+4. Screenshot captures the result
+5. Close button dismisses dialog
+
+Total: ~5 seconds is safe to capture result
+
+================================================================================
+WHAT TO LOOK FOR IN SCREENSHOTS
+================================================================================
+
+INVALID KEY (most common):
+🔺 Red triangle with ! icon
+📝 "Code is Not valid"
+❌ Close button visible
+
+VALID KEY (when you find one):
+✅ Green checkmark or success icon
+📝 "Code is valid" or "Activated successfully"
+🎉 STOP TESTING - YOU FOUND IT!
+
+================================================================================
+USAGE WITH ALL 832 KEYS
+================================================================================
+
+1. Open ALL_832_KEYS_FULL_LIST.txt
+
+2. For each key (001-832):
+   - Copy key (long-press → Copy)
+   - Press Volume Down 3x
+   - Wait ~15 seconds for macro to complete
+   - Check screenshot if unsure
+   - Move to next key
+
+3. When you find valid key:
+   - Screenshot will show success
+   - Save the key number
+   - STOP testing!
+
+4. Estimated total time:
+   - 832 keys × 15 seconds = 208 minutes
+   - ~3.5 hours with breaks
+
+================================================================================
+IF YOU ALREADY IMPORTED V1
+================================================================================
+
+Option A: Keep v1 and manually update
+──────────────────────────────────────
+
+1. Open MacroDroid
+2. Tap your existing "Quick Key Test" macro
+3. Find action #11 (after "Wait 3 seconds")
+4. Change wait from 3 to 5 seconds
+5. After "Take Screenshot", add:
+   - Wait: 1 second
+   - Click Coordinate: X=474, Y=608
+   - Wait: 1 second
+6. Save
+
+Option B: Delete v1 and import v2
+──────────────────────────────────
+
+1. Long-press old macro → Delete
+2. Import QuickKeyTest_MacroDroid_v2.json
+3. Done!
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Close button not being tapped?
+→ Check coordinates: X=474, Y=608
+→ Adjust ±10 pixels if needed
+
+Screenshot shows loading instead of result?
+→ Increase wait time to 6-7 seconds
+→ Edit macro action #10
+
+Validation takes longer than 5 seconds?
+→ Slow internet connection
+→ Increase wait to 8-10 seconds
+
+Macro taps Close before result shows?
+→ Increase wait after Activate
+→ Try 6-7 seconds instead of 5
+
+================================================================================
+ADVANCED: DETECT SUCCESS AUTOMATICALLY
+================================================================================
+
+Want macro to STOP when it finds valid key?
+
+Add this after Screenshot action:
+
+1. IF condition:
+   - Type: "OCR Text"
+   - Text to find: "valid" OR "success"
+   - Then: Play notification sound
+   - Then: Stop macro
+
+This will alert you immediately when valid key is found!
+
+(Requires MacroDroid PRO for OCR feature)
+
+================================================================================
+FILES YOU NEED
+================================================================================
+
+✅ QuickKeyTest_MacroDroid_v2.json (import this)
+✅ ALL_832_KEYS_FULL_LIST.txt (keys to test)
+
+Both on GitHub:
+https://github.com/samdavistwo-png/android-app
+
+================================================================================
+SUMMARY OF CHANGES
+================================================================================
+
+v1 → v2:
+- Wait after Activate: 3s → 5s (handles loading)
+- Screenshot timing: Before close → After validation
+- Added: Tap Close button (474, 608)
+- Added: Wait for dialog to dismiss
+- Total time per key: 10s → 15s (more reliable)
+
+================================================================================
+READY TO START?
+================================================================================
+
+1. ✅ Download QuickKeyTest_MacroDroid_v2.json
+2. ✅ Import into MacroDroid
+3. ✅ Enable Accessibility
+4. ✅ Test with key "123456"
+5. ✅ Start testing all 832 keys!
+
+Good luck finding the valid key! 🍀
+
+================================================================================
+Last Updated: June 11, 2026
+Version: 2.0
+Device: OPPO K13 5G (1080 x 2400)
+Total Keys: 832
+Estimated Time: ~3.5 hours
+================================================================================
